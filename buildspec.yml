@@ -1,11 +1,7 @@
    version: 0.2
 
-   env:
-     variables:
-        S3_BUCKET: "www.value4free.de"
-
    phases:
-     
+
      install:
         commands:
            - gem install bundler
@@ -15,4 +11,4 @@
            - bundle exec jekyll build
      post_build:
         commands:
-           - aws s3 sync _site/ s3://$S3_BUCKET
+           - aws s3 sync _site/ s3://www.value4free.de
