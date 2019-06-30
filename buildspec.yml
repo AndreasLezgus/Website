@@ -1,16 +1,11 @@
-version: 0.2
+version: 0.1
 
 phases:
   install:
     commands:
-      - echo "******** Install Bundles ********"
+      - gem install bundler
       - bundle install
   build:
     commands:
-      - echo "******** Building Jekyll site ********"
-      - JEKYLL_ENV=production bundle exec jekyll build
-artifacts:
-  base-directory: '_site'
-  files:
-    - '**/*'
-  name: lezgus.de-$(date +%Y-%m-%d-%H%M%S)
+      - bundle exec jekyll build
+      - aws s3 sync --delete _site/ s3://www.value4free.de
