@@ -5,8 +5,7 @@ phases:
     commands:
       - gem install bundler
       - bundle install
-    runtime-versions:
-      ruby: 2.6
+  
   build:
     commands:
       - bundle exec jekyll build
