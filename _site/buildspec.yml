@@ -5,8 +5,11 @@ phases:
     commands:
       - gem install bundler
       - bundle install
-  
+
   build:
     commands:
+
+      - echo "******** Building Jekyll site ********"
       - bundle exec jekyll build
-      - aws s3 sync --delete _site/ s3://www.value4free.de
+      - echo "******** Uploading to S3 ********"
+      - aws s3 sync _site/ s3://www.value4free.de
