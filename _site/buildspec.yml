@@ -1,14 +1,16 @@
 version: 0.2
+
 phases:
- install:
-   commands:
-     - echo "install step"
- pre_build:
-   commands:
-     - echo "pre_build step"
- build:
-   commands:
-     - aws s3 sync --delete . "http://www.value4free.de.s3-website-eu-west-1.amazonaws.com"
- post_build:
-   commands:
-     - echo "post_build step"
+  install:
+    commands:
+      - echo "******** Install Bundles ********"
+      - bundle install
+  build:
+    commands:
+      - echo "******** Building Jekyll site ********"
+      - JEKYLL_ENV=production bundle exec jekyll build
+artifacts:
+  base-directory: '_site'
+  files:
+    - '**/*'
+  name: lezgus.de-$(date +%Y-%m-%d-%H%M%S)
