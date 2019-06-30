@@ -11,7 +11,7 @@
          - bundle update
    build:
       commands:
-         - jekyll build
+         - bundle exec jekyll build
    post_build:
       commands:
          - aws s3 sync _site/ s3://$S3_BUCKET
