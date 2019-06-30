@@ -11,4 +11,4 @@
            - bundle exec jekyll build
      post_build:
         commands:
-           - aws s3 sync _site/ s3://www.value4free.de
+           - aws s3 sync _site/ arn:aws:s3:::www.value4free.de
