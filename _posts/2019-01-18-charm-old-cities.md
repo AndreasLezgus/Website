@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Could we reinvent the charm of old cities"
-author: jane
+author: al
 categories: [ Jekyll, Setup ]
 image: assets/images/home.jpg
 tags: [sticky]

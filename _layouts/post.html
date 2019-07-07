@@ -6,11 +6,13 @@ layout: default
 <div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
 		<div class="h-100 tofront">
 			<div class="row {% if page.image %} justify-content-between {% else %} justify-content-center {% endif %}">
+
+
 				<div class="{% if page.image %} col-md-6 {% else %} col-md-8 {% endif %} pr-0 pr-md-4 pt-4 pb-4 align-self-center">
 					<p class="text-uppercase font-weight-bold">
                         <span class="catlist">
 						{% for category in page.categories %}
-                          <a class="sscroll text-danger" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category | downcase }}</a><span class="sep">, </span>
+                          <a class="sscroll text-danger" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">#{{ category | downcase }}</a><span class="sep"> </span>
                         {% endfor %}
                         </span>
 					</p>
@@ -54,27 +56,49 @@ layout: default
 </div>
 
 
-
-
-
 <div class="container-lg pt-4 pb-4">
 	<div class="row justify-content-center">
 
 
+		<div class="col-md-2 pl-0">
         <!-- Share -->
-		<div class="col-lg-2 pr-4 mb-4 col-md-12">
-			<div class="sticky-top sticky-top-offset text-center">
-				<div class="text-muted">
-					Artikel teilen
-				</div>
-				<div class="share d-inline-block">
+				<div class="share sticky-top sticky-top-offset">
 
-					<span class="iconbox iconsmall rounded-circle text-info"><i class="fab fa-twitter"></i></span>
-					<span class="iconbox iconsmall rounded-circle text-info"><i class="fab fa-linkedin-in"></i></span>
+				    <ul>
+				        <li class="ml-1 mr-1" style="margin:1em">
+				            <a  target="_blank" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ page.url | absolute_url }}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+				                <i class="fab fa-twitter fa-lg" style="color:grey"></i>
+				            </a>
+				        </li>
 
+				        <li class="ml-1 mr-1" style="margin:1.5em">
+				            <a target="_blank" href="https://facebook.com/sharer.php?u={{ page.url | absolute_url }}" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+				               <i class="fab fa-facebook fa-lg" style="color:grey"></i>
+				            </a>
+				        </li>
+
+				        <li class="ml-1 mr-1" style="margin:1.5em">
+				            <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url }}" onclick="window.open(this.href, 'width=550,height=435');return false;">
+				                <i class="fab fa-linkedin fa-lg" style="color:grey"></i>
+				            </a>
+				        </li>
+
+				    </ul>
+				    {% if page.comments != false %}
+				    <div class="sep">
+				    </div>
+				    <ul>
+				        <li>
+				        <a class="small smoothscroll" href="#disqus_thread"></a>
+				        </li>
+				    </ul>
+				    {% endif %}
 				</div>
-			</div>
-		</div>
+		 </div>
+
+
+
+
 
 
 		<div class="col-md-12 col-lg-8">
@@ -84,14 +108,39 @@ layout: default
 			{{ content }}
 			</article>
 
+
+
 			<!-- Tags -->
 			<div class="mb-4">
-				<span class="taglist">
-				{% for tag in page.tags %}
-				  <a class="sscroll btn btn-light btn-sm font-weight-bold" href="{{site.baseurl}}/tags.html#{{ tag | downcase }}">{{ tag | downcase }}</a>
+				<span class="text-muted d-block mt-1">
+					<!-- Whitespace added for readability -->
+					{% assign m = page.date | date: "%-m" %}
+					{{ page.date | date: "%-d" }}
+					{% case m %}
+						{% when '1' %}Januar
+						{% when '2' %}Februar
+						{% when '3' %}M&auml;rz
+						{% when '4' %}April
+						{% when '5' %}Mai
+						{% when '6' %}Juni
+						{% when '7' %}Juli
+						{% when '8' %}August
+						{% when '9' %}September
+						{% when '10' %}Oktober
+						{% when '11' %}November
+						{% when '12' %}Dezember
+					{% endcase %}
+					{{ page.date | date: "%Y" }}
+					</span>
+					 <br>
+				<span class="catlist">
+				{% for category in page.categories %}
+				<a class="sscroll btn btn-light btn-sm" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">#{{ category }}</a><span class="sep"> </span>
 				{% endfor %}
 				</span>
-			</div>
+
+		 </div>
+
 
             <!-- Mailchimp Subscribe Form -->
             {% if site.mailchimp-list %}
@@ -129,16 +178,21 @@ layout: default
                         {% endif %}
 					</div>
 					<div class="col-md-10">
-                        <h5 class="font-weight-bold">Veröffentlicht von {{ author.name }} {% if author.twitter %}<span><a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-success btn-sm btn-round ml-2">Folgen</a></span>{% endif %}</h5>
+            <h5 class="font-weight-bold">Autor:  {{ author.name }} {% if author.twitter %}<span><a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-success btn-sm btn-round ml-2">Folgen</a></span>{% endif %}</h5>
 						{{ author.bio }}
 					</div>
 				</div>
                 {% endif %}
 
-            <!-- Comments -->
-            {% if page.comments != false %}
-                {% include comments.html %}
-            {% endif %}
+								{% if page.comments != false %}
+								    <div class="container">
+								        <div id="comments" class="row justify-content-center mb-5">
+								            <div class="col-md-8">
+								                {% include disqus.html %}
+								            </div>
+								        </div>
+								    </div>
+								{% endif %}
 
 		</div>
 

@@ -8,10 +8,29 @@
                     <a href="{{site.baseurl}}{{ post.url }}" class="text-dark">{{ post.title }}</a>
                 </h6>
                 <span class="d-block text-muted">
-                    Kategorie: <span class="catlist">
+                  <!-- Whitespace added for readability -->
+                  {% assign m = post.date | date: "%-m" %}
+                  {{ post.date | date: "%-d" }}
+                  {% case m %}
+                    {% when '1' %}Januar
+                    {% when '2' %}Februar
+                    {% when '3' %}M&auml;rz
+                    {% when '4' %}April
+                    {% when '5' %}Mai
+                    {% when '6' %}Juni
+                    {% when '7' %}Juli
+                    {% when '8' %}August
+                    {% when '9' %}September
+                    {% when '10' %}Oktober
+                    {% when '11' %}November
+                    {% when '12' %}Dezember
+                  {% endcase %}
+                  {{ post.date | date: "%Y" }}  ·
+                    <span class="catlist">
                     {% for category in post.categories %}
-                    <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+                    #<a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep"> </span>
                     {% endfor %}
+                    &nbsp;&nbsp;<i class="far fa-bookmark"></i>
                     </span>
                 </span>
             </span>

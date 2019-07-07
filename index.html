@@ -31,14 +31,8 @@ description: "Die Schule des Lebens kennt keine Ferien..."
         {{ latest_post.excerpt | strip_html | strip_newlines | truncate: 136 }}
     </p>
     <div>
+
         <small class="d-block text-muted">
-            Kategorie: <span class="catlist">
-                {% for category in latest_post.categories %}
-                <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
-                {% endfor %}
-                </span>
-        </small>
-        <small class="text-muted">
           <!-- Whitespace added for readability -->
           {% assign m = latest_post.date | date: "%-m" %}
           {{ latest_post.date | date: "%-d" }}
@@ -56,9 +50,15 @@ description: "Die Schule des Lebens kennt keine Ferien..."
             {% when '11' %}November
             {% when '12' %}Dezember
           {% endcase %}
-          {{ latest_post.date | date: "%Y" }}
-
+          {{ latest_post.date | date: "%Y" }}  ·
+            <span class="catlist">
+                {% for category in latest_post.categories %}
+                #<a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep"> </span>
+                {% endfor %}
+                </span>
+                &nbsp;<i class="fas fa-star"></i>
         </small>
+
     </div>
     </div>
     </div>
@@ -81,11 +81,12 @@ description: "Die Schule des Lebens kennt keine Ferien..."
                     <a class="text-dark" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a>
                     </h2>
                     <small class="d-block text-muted">
-                        Kategorie: <span class="catlist">
+                        <span class="catlist">
                         {% for category in second_post.categories %}
-                        <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+                        #<a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep"> </span>
                         {% endfor %}
                         </span>
+                        &nbsp;<i class="far fa-star"></i>
                     </small>
                     <small class="text-muted">
                       <!-- Whitespace added for readability -->
@@ -106,8 +107,8 @@ description: "Die Schule des Lebens kennt keine Ferien..."
                         {% when '12' %}Dezember
                       {% endcase %}
                       {{ second_post.date | date: "%Y" }}
-
                     </small>
+
                 </div>
             </div>
 
@@ -126,14 +127,14 @@ description: "Die Schule des Lebens kennt keine Ferien..."
                     <a class="text-dark" href="{{site.baseurl}}{{third_post.url}}">{{ third_post.title }}</a>
                     </h2>
                     <small class="d-block text-muted">
-                        Kategorie: <span class="catlist">
+                        <span class="catlist">
                         {% for category in third_post.categories %}
-                        <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+                        #<a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep"> </span>
                         {% endfor %}
                         </span>
+                        &nbsp;<i class="far fa-star"></i>
                     </small>
                     <small class="text-muted">
-                      <!-- Whitespace added for readability -->
                       {% assign m = third_post.date | date: "%-m" %}
                       {{ third_post.date | date: "%-d" }}
                       {% case m %}
@@ -151,8 +152,8 @@ description: "Die Schule des Lebens kennt keine Ferien..."
                         {% when '12' %}Dezember
                       {% endcase %}
                       {{ third_post.date | date: "%Y" }}
-
                     </small>
+
                 </div>
             </div>
 
@@ -170,17 +171,19 @@ description: "Die Schule des Lebens kennt keine Ferien..."
                     <h2 class="mb-2 h6 font-weight-bold">
                     <a class="text-dark" href="{{site.baseurl}}{{fourth_post.url}}">{{ fourth_post.title }}</a>
                     </h2>
+
                     <small class="d-block text-muted">
-                        Kategorie: <span class="catlist">
+                        <span class="catlist">
                         {% for category in fourth_post.categories %}
-                        <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+                        #<a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep"> </span>
                         {% endfor %}
                         </span>
+                        &nbsp;<i class="far fa-star"></i>
                     </small>
                     <small class="text-muted">
                       <!-- Whitespace added for readability -->
                       {% assign m = fourth_post.date | date: "%-m" %}
-                      {{ fourth_post.date | date: "%-d" }}
+                      {{ third_post.date | date: "%-d" }}
                       {% case m %}
                         {% when '1' %}Januar
                         {% when '2' %}Februar
@@ -196,8 +199,8 @@ description: "Die Schule des Lebens kennt keine Ferien..."
                         {% when '12' %}Dezember
                       {% endcase %}
                       {{ fourth_post.date | date: "%Y" }}
-
                     </small>
+
                 </div>
             </div>
 
