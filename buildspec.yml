@@ -1,14 +1,23 @@
-   version: 0.2
+# buildspec
+version: 0.2
 
-   phases:
-
-     install:
-        commands:
-           - gem install bundler
-           - bundle update
-     build:
-        commands:
-           - bundle exec jekyll build
-     post_build:
-        commands:
-           - aws s3 sync _site/ s3://www.value4free.de
+SITEBUILD: "yes"
+phases:
+  install:
+    commands:
+      - echo install phase
+      - apt-get update -y
+  pre_build:
+    commands:
+      - echo prebuild phase
+      - gem install bundler
+      - bundle install
+  build:
+    commands:
+      - echo Build started on `date`
+      - bundle exec jekyll build
+      - aws s3 sync _site/ s3://www.value4free.de
+  post_build:
+    commands:
+      - aws cloudfront create-invalidation --distribution-id E2ZPHECQ1M7G62 --paths "/*"
+      - echo Build completed on date
