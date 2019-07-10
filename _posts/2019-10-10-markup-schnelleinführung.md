@@ -1,0 +1,11 @@
+---
+title: Markup-Schnelleinführung
+date: 2019-07-10T21:10:23+02:00
+author: Andreas Lezgus
+layout: post
+---
+
+Wie in „Erste Schritte“ bereits beschrieben, basiert Ulysses auf dem Konzept, die Bedeutung von Textpassagen durch Einfassung in Sonderzeichen zu definieren. Dieses Konzept ist als „Markup“ bekannt, jedes dieser eindeutigen Zeichenpaare (wie beispielsweise _Unterstriche für Betonung_) wird „Markup-Definition“ genannt. Fasst man nun alle diese Definitionen zu einer Definitionen-Sammlung zusammen, so erhält man eine „Markup-Sprache“. Es haben sich inzwischen eine Vielzahl an Markup-Sprachen entwickelt, und sehr wahrscheinlich sind Sie bereits in Foren oder auf Blogging-Plattformen über eine solche Markup-Sprache gestolpert: Textile, Setext, oder das immer populärer werdende Markdown von John Gruber.
+
+Standardmäßig verwendet Ulysses seine Muttersprache „Markdown XL“.
+
