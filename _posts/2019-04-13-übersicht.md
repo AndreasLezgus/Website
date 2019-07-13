@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Übersicht
-date: 2019-07-13T17:37:38+02:00
+date: 2019-07-13T18:04:47+02:00
 author: al
-categories: [ Juhu ]
+categories: [ Uzt ]
 image: assets/images/Übersicht.jpg
 ---
 
