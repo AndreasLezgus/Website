@@ -1,10 +1,18 @@
 ---
 layout: post
+<<<<<<< HEAD
 title:  "Could we reinvent the charm of old cities"
 author: al
 categories: [ Jekyll, Setup, Workflow ]
 image: assets/images/home.jpg
 tags: [sticky]
+=======
+title:  "Could we reinvent the charm of old citiy"
+author: al
+categories: [ Jekyll2, Setup2, Workflow2 ]
+image: assets/images/home.jpg
+tags:
+>>>>>>> master
 ---
 
 Bucharest’s history alternated periods of development -6 - and decline from the early settlements in antiquity until its consolidation as the national capital of Romania late in the 19th century. First mentioned as the “Citadel of București” in 1459, it became the residence of the famous Wallachian prince Vlad III the Impaler. Andreas Lezgus
