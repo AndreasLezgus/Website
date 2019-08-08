@@ -2,7 +2,7 @@
 layout: post
 title:  "Could we reinvent the charm of old citiy"
 author: al
-categories: [ Jekyll, Setup2, Workflow2 ]
+categories: [ Jekyll2, Setup2, Workflow2 ]
 image: assets/images/home.jpg
 tags:
 ---
