@@ -1,4 +1,4 @@
-# Personal Website
+# Personal Website in Development
 Portfolio: https://www.lezgus.de
 
 Minimalistic CSS for a responsive mobile Design
