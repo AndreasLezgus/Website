@@ -577,25 +577,8 @@ label .icon-font {
 /* Media Query */
 
 /* Mobile */
-@media (min-width: 40.0rem){
-  .row {
-    flex-direction: row;
-    margin-left: -1.0rem;
-    width: calc(100% + 2.0rem);
-  }
-  .row .column {
-    margin-bottom: inherit;
-    padding: 0 1.0rem;
-  }
-}
-
-/* Tablet Porträt Mode */
-@media only screen 
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : portrait) {
-    .row .column.responsive[class*=" column-"] {
-        margin-left: 0;
+@media (min-width: 495px) and (max-width:800px) {
+    .row .column[class*=" column-"] {
         max-width: 100%;
     }
 }
