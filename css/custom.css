@@ -576,8 +576,8 @@ label .icon-font {
 
 /* Media Query */
 
-/* Mobile */
-@media (min-width: 40.0rem){
+/* Larger than mobile screen */
+@media (min-width: 40.0rem) {
   .row {
     flex-direction: row;
     margin-left: -1.0rem;
@@ -587,5 +587,14 @@ label .icon-font {
     margin-bottom: inherit;
     padding: 0 1.0rem;
   }
+}
+
+/* Larger than tablet screen */
+@media (min-width: 80.0rem) {
+
+ }
+
+/* Larger than desktop screen */
+@media (min-width: 120.0rem) {
 
 }
