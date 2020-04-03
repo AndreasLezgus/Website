@@ -589,33 +589,3 @@ label .icon-font {
     padding: 0 1.0rem;
   }
 }
-
-/* Tablets */
-@media (min-width: 80.0rem)
-and (orientation : portrait)
-{
-  .row {
-    flex-direction: row;
-    margin-left: -1.0rem;
-    width: calc(100% + 2.0rem);
-
-  }
-  .row .column {
-    margin-bottom: inherit;
-    padding: 0 1.0rem;
-  }
-}
-
-/* Desktop */
-@media (min-width: 120.0rem){
-  .row {
-    flex-direction: row;
-    margin-left: -1.0rem;
-    width: calc(100% + 2.0rem);
-
-  }
-  .row .column {
-    margin-bottom: inherit;
-    padding: 0 1.0rem;
-  }
-}
