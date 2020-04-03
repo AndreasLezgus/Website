@@ -577,7 +577,10 @@ label .icon-font {
 /* Media Query */
 
 /* Mobile */
-@media (max-width: 40rem) {
+
+
+/* Mobile */
+@media (min-width: 40rem) {
     .row .column.responsive[class*=" column-"] {
         margin-left: 0;
         max-width: 100%;
