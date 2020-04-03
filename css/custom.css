@@ -577,10 +577,21 @@ label .icon-font {
 /* Media Query */
 
 /* Mobile */
-
+@media (min-width: 40.0rem){
+  .row {
+    flex-direction: row;
+    margin-left: -1.0rem;
+    width: calc(100% + 2.0rem);
+  }
+  .row .column {
+    margin-bottom: inherit;
+    padding: 0 1.0rem;
+  }
+}
 
 /* Mobile */
-@media (min-width: 40rem) {
+@media (max-width: 40rem)
+and (orientation: portrait) {
     .row .column.responsive[class*=" column-"] {
         margin-left: 0;
         max-width: 100%;
