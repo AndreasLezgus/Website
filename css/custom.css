@@ -589,9 +589,11 @@ label .icon-font {
   }
 }
 
-/* Mobile */
-@media (max-width: 40rem)
-and (orientation: portrait) {
+/* Tablet Porträt Mode */
+@media only screen 
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
     .row .column.responsive[class*=" column-"] {
         margin-left: 0;
         max-width: 100%;
