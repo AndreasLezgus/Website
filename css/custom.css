@@ -576,8 +576,7 @@ label .icon-font {
 
 /* Media Query */
 
-@media (min-width: 40rem)
-and (orientation : portrait) {
+@media (min-width: 40rem){
   .row {
     flex-direction: row;
     margin-left: -1.0rem;
@@ -587,4 +586,21 @@ and (orientation : portrait) {
     margin-bottom: inherit;
     padding: 0 1.0rem;
   }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait)
+{
+  .row {
+    flex-direction: row;
+    margin-left: -1.0rem;
+    width: calc(100% + 2.0rem);
+  }
+  .row .column {
+    margin-bottom: inherit;
+    padding: 0 1.0rem;
+  }
+
 }
