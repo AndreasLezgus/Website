@@ -576,7 +576,7 @@ label .icon-font {
 
 /* Media Query */
 
-@media (min-width: 50rem) {
+@media (min-width: 60rem) {
   .row {
     flex-direction: row;
     margin-left: -1.0rem;
