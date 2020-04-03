@@ -587,4 +587,8 @@ label .icon-font {
     margin-bottom: inherit;
     padding: 0 1.0rem;
   }
+  .img {
+		width: 35%;
+	}
+
 }
