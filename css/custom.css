@@ -577,7 +577,7 @@ label .icon-font {
 /* Media Query */
 
 /* Larger than mobile screen */
-@media (min-width: 38.0rem) {
+@media (min-width: 42.0rem) {
   .row {
     flex-direction: row;
     margin-left: -1.0rem;
