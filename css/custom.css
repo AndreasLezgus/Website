@@ -289,6 +289,7 @@ input[type='submit']:hover {
 
 .container {
   margin: 0 auto;
+  max-width: 112.0rem;
   padding: 0 2.0rem;
   position: relative;
   width: 100%;
@@ -577,11 +578,41 @@ label .icon-font {
 /* Media Query */
 
 /* Mobile */
-@media (min-width: 40.0rem){
+@media (min-width: 42.0rem){
   .row {
     flex-direction: row;
     margin-left: -1.0rem;
     width: calc(100% + 2.0rem);
+  }
+  .row .column {
+    margin-bottom: inherit;
+    padding: 0 1.0rem;
+  }
+}
+
+/* Tablets */
+@media (min-width: 80.0rem)
+and (orientation : portrait)
+{
+  .row {
+    flex-direction: row;
+    margin-left: -1.0rem;
+    width: calc(100% + 2.0rem);
+
+  }
+  .row .column {
+    margin-bottom: inherit;
+    padding: 0 1.0rem;
+  }
+}
+
+/* Desktop */
+@media (min-width: 120.0rem){
+  .row {
+    flex-direction: row;
+    margin-left: -1.0rem;
+    width: calc(100% + 2.0rem);
+
   }
   .row .column {
     margin-bottom: inherit;
