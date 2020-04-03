@@ -577,8 +577,14 @@ label .icon-font {
 /* Media Query */
 
 /* Mobile */
-@media (min-width: 495px) and (max-width:800px) {
-    .row .column[class*=" column-"] {
-        max-width: 100%;
-    }
+@media (min-width: 42.0rem){
+  .row {
+    flex-direction: row;
+    margin-left: -1.0rem;
+    width: calc(100% + 2.0rem);
+  }
+  .row .column {
+    margin-bottom: inherit;
+    padding: 0 1.0rem;
+  }
 }
