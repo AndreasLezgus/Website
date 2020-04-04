@@ -203,19 +203,24 @@ img {
   height: auto;
 }
 
-.clearfix:after {
-  clear: both;
-  content: ' ';
-  display: table;
+
+textarea {
+  min-height: 6.5rem;
 }
 
-.float-left {
-  float: left;
+label,
+legend {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: .5rem;
 }
 
-.float-right {
-  float: right;
+fieldset {
+  border-width: 0;
+  padding: 0;
 }
+
 
 .tagline {
   color: #FFF;
@@ -288,6 +293,7 @@ input[type='submit']:hover {
 
 .container {
   margin: 0 auto;
+  max-width: 112.0rem;
   padding: 0 2.0rem;
   position: relative;
   width: 100%;
@@ -314,7 +320,6 @@ input[type='submit']:hover {
   color: #99999a;
   width: 100%;
 }
-
 
 .row {
   display: flex;
@@ -467,6 +472,19 @@ input[type='submit']:hover {
       align-self: center;
 }
 
+@media (min-width: 40rem) {
+  .row {
+    flex-direction: row;
+    margin-left: -1.0rem;
+    width: calc(100% + 2.0rem);
+  }
+  .row .column {
+    margin-bottom: inherit;
+    padding: 0 1.0rem;
+  }
+}
+
+
 
 /* Hamburger Menu Styles */
 
@@ -572,21 +590,23 @@ label .icon-font {
 
 }
 
+.clearfix:after {
+  clear: both;
+  content: ' ';
+  display: table;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
 
 /* Media Query */
 
-/* Larger than mobile screen */
-@media (min-width: 42.0rem) {
-  .row {
-    flex-direction: row;
-    margin-left: -1.0rem;
-    width: calc(100% + 2.0rem);
-  }
-  .row .column {
-    margin-bottom: inherit;
-    padding: 0 1.0rem;
-  }
-}
 
 /* Larger than tablet screen */
 @media (min-width: 80.0rem) {
