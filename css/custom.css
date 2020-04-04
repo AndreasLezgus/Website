@@ -199,7 +199,6 @@ fieldset {
 
 .landing {
   margin: 0 auto;
-  background-color: #FF9096;
   padding-top: 20px;
   padding-bottom: 20px;
   color: #FFF;
@@ -482,6 +481,7 @@ strong {
 
 p {
   margin-top: 0;
+  color:#2E2E2E;
 }
 
 h1,
@@ -490,7 +490,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.1rem;
   margin-bottom: 2.0rem;
   margin-top: 0;
@@ -504,6 +504,8 @@ h1 {
 h2 {
   font-size: 3.6rem;
   line-height: 1.25;
+  color: #2E2E2E;
+  font-weight: 500;
 }
 
 h3 {
