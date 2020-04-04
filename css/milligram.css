@@ -189,14 +189,14 @@ fieldset {
 }
 
 .header {
-  margin-bottom: 1rem;
+  margin-bottom: 20px;
   background-color: #59BEDC;
   color: #99999a;
   width: 100%;
 }
 
 .footer {
-  margin: 0;
+  margin-bottom: 20px;
   background-color: #F3F3F3;
   color: #99999a;
   width: 100%;
