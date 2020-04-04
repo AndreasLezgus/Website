@@ -1,9 +1,11 @@
-/*!
+/* Custom Styles based on Milligram:
+ *
  * Milligram v1.3.0
  * https://milligram.github.io
  *
  * Copyright (c) 2017 CJ Patoilo
  * Licensed under the MIT license
+ *
  */
 
 *,
@@ -36,6 +38,8 @@ blockquote {
 blockquote *:last-child {
   margin-bottom: 0;
 }
+
+/* Buttons */
 
 .button,
 button {
@@ -156,6 +160,8 @@ fieldset {
   padding: 0;
 }
 
+
+/* Grid */
 
 .wrapper {
   margin: 0;
@@ -359,6 +365,10 @@ fieldset {
     padding: 0 1.0rem;
   }
 }
+
+
+
+/* Base Styles */
 
 a {
   color: #9b4dca;
@@ -608,6 +618,9 @@ label .icon-font {
 
 }
 
+
+/* Clearing */
+
 .clearfix:after {
   clear: both;
   content: ' ';
@@ -621,5 +634,3 @@ label .icon-font {
 .float-right {
   float: right;
 }
-
-/*# sourceMappingURL=milligram.css.map */
