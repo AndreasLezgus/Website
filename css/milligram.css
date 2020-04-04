@@ -245,7 +245,6 @@ textarea {
   min-height: 6.5rem;
 }
 
-label,
 legend {
   display: block;
   font-size: 1.6rem;
@@ -263,11 +262,7 @@ input[type='radio'] {
   display: inline;
 }
 
-.label-inline {
-  display: inline-block;
-  font-weight: normal;
-  margin-left: .5rem;
-}
+
 
 
 /* Hamburger Menu Styles */
