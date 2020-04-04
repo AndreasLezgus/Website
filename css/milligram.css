@@ -24,7 +24,6 @@ body {
   font-weight: 300;
   letter-spacing: .01em;
   line-height: 1.6;
-  overflow-x: hidden;
 }
 
 blockquote {
@@ -222,6 +221,11 @@ fieldset {
   width: 100%;
 }
 
+.tagline {
+  color: #FFF;
+  
+
+}
 
 .row {
   display: flex;
