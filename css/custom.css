@@ -22,7 +22,7 @@ html {
 body {
   color: #606c76;
   font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-  font-size: 1em;
+  font-size: 1.6em;
   font-weight: 300;
   line-height: 1.6;
   letter-spacing: 0;
@@ -477,7 +477,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 200;
+  font-weight: bold;
   letter-spacing: 0rem;
   margin-bottom: 2.0rem;
   margin-top: 0;
