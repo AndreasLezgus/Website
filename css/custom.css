@@ -223,24 +223,18 @@ fieldset {
 
 .tagline {
   color: #FFF;
-  margin: 3rem;
+
 }
 
-.tagline img{
-  color: #FFF;
-  margin-bottom: 2rem;
-  max-width: 70%;
-  height: auto;
-}
 
 .landing {
   color: #000;
-  margin: 3rem;
+
 }
 
 .projects {
   color: #000;
-  margin: 3rem;
+
 }
 
 /* Buttons Styles */
