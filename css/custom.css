@@ -170,7 +170,8 @@ fieldset {
 .container {
   margin: 0 auto;
   max-width: 112.0rem;
-  padding: 0 2.0rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
   position: relative;
   width: 100%;
 }
