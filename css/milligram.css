@@ -269,6 +269,7 @@ input[type='radio'] {
   margin-left: .5rem;
 }
 
+
 .container {
   margin: 0 auto;
   max-width: 112.0rem;
@@ -276,6 +277,16 @@ input[type='radio'] {
   position: relative;
   width: 100%;
 }
+
+
+.navigation {
+  margin: 0 auto;
+  background-color: #59BEDC;
+  color: #99999a;
+  height: 60px;
+  width: 100%;
+}
+
 
 .row {
   display: flex;
