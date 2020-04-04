@@ -189,6 +189,7 @@ fieldset {
 }
 
 .header {
+  margin: 0 auto;
   padding-top: 10px;
   padding-bottom: 20px;
   background-color: #59BEDC;
@@ -197,6 +198,7 @@ fieldset {
 }
 
 .landing {
+  margin: 0 auto;
   padding-top: 20px;
   padding-bottom: 20px;
   color: #000;
@@ -204,6 +206,7 @@ fieldset {
 }
 
 .projects {
+  margin: 0 auto;
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #FF9096;
@@ -212,6 +215,7 @@ fieldset {
 }
 
 .footer {
+  margin: 0 auto;
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #F3F3F3;
