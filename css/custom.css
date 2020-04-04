@@ -86,7 +86,27 @@ blockquote *:last-child {
     width: 100%;
 }
 
+.image {
+    display: inline-block;
+    margin-left: 4em;
+    padding: 0.65em;
+    border-radius: 100%;
+    border: solid 1px;
+}
+.image img {
+    display: block;
+    border-radius: 100%;
+    width: 16em;
+}
 
+.image {
+    -moz-flex: 0 1 auto;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    margin-left: 0;
+    margin-bottom: 2em;
+}
 /* Buttons */
 
 .button,
