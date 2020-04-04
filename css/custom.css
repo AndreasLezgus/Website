@@ -25,6 +25,7 @@ body {
   font-size: 1.6em;
   font-weight: 300;
   line-height: 1.6;
+  letter-spacing: 0.1rem;
 }
 
 blockquote {
@@ -57,7 +58,7 @@ button {
   text-decoration: none;
   text-transform: uppercase;
   white-space: nowrap;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
 }
 
 .button:focus, .button:hover,
@@ -518,7 +519,6 @@ h5 {
 h6 {
   font-size: 1.6rem;
   line-height: 1.4;
-  letter-spacing: 0.2rem;
 }
 
 img {
