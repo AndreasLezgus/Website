@@ -226,8 +226,6 @@ fieldset {
   display: flex;
   flex-direction: column;
   padding: 0;
-  padding-top: 20px;
-  padding-bottom: 20px;
   width: 100%;
 }
 
@@ -492,7 +490,7 @@ h4,
 h5,
 h6 {
   font-weight: 400;
-  letter-spacing: 0rem;
+  letter-spacing: 0.1rem;
   margin-bottom: 2.0rem;
   margin-top: 0;
 }
