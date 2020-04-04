@@ -149,7 +149,6 @@ hr {
   margin: 3.0rem 0;
 }
 
-textarea,
 select {
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -164,7 +163,7 @@ select {
   width: 100%;
 }
 
-textarea:focus,
+
 select:focus {
   border-color: #9b4dca;
   outline: 0;
@@ -179,11 +178,7 @@ select:focus {
   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="14" viewBox="0 0 29 14" width="29"><path fill="#9b4dca" d="M9.37727 3.625l5.08154 6.93523L19.54036 3.625"/></svg>');
 }
 
-textarea {
-  min-height: 6.5rem;
-}
 
-label,
 legend {
   display: block;
   font-size: 1.6rem;
@@ -196,12 +191,6 @@ fieldset {
   padding: 0;
 }
 
-
-.label-inline {
-  display: inline-block;
-  font-weight: normal;
-  margin-left: .5rem;
-}
 
 .wrapper {
   margin: 0;
@@ -226,8 +215,6 @@ fieldset {
 
 .tagline {
   color: #FFF;
-
-
 }
 
 .header {
