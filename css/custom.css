@@ -574,38 +574,38 @@ label .hamburger:after, label .hamburger:before {
   background: #FFF;
 }
 
-label .hamburger:before { top: -8px; }
+.hamburger:before { top: -8px; }
 
-label .hamburger:after { bottom: -8px; }
+.hamburger:after { bottom: -8px; }
 
-label input { display: none; }
+input { display: none; }
 
-label input:checked + .menu {
+input:checked + .menu {
   background: #9091E1;
   box-shadow: 0 0 0 100vw #9091E1, 0 0 0 100vh #9091E1;
   border-radius: 0;
 }
 
-label input:checked + .menu .hamburger {
+input:checked + .menu .hamburger {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
-label input:checked + .menu .hamburger:after {
+input:checked + .menu .hamburger:after {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   bottom: 0;
 }
 
-label input:checked + .menu .hamburger:before {
+input:checked + .menu .hamburger:before {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   top: 0;
 }
 
-label input:checked + .menu + ul { opacity: 1; }
+input:checked + .menu + ul { opacity: 1; }
 
-label ul {
+ul {
   list-style-type: none;
   z-index: 200;
   position: absolute;
@@ -633,7 +633,7 @@ label a {
 
 }
 
-label .icon-font {
+.icon-font {
   margin-right: 20px;
 
 }
