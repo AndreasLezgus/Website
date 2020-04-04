@@ -199,6 +199,7 @@ fieldset {
 
 .landing {
   margin: 0 auto;
+  background-color: #FF9096;
   padding-top: 20px;
   padding-bottom: 20px;
   color: #000;
@@ -209,7 +210,6 @@ fieldset {
   margin: 0 auto;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #FF9096;
   color: #FFF;
   width: 100%;
 }
