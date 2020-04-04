@@ -469,6 +469,7 @@ strong {
 
 p {
   margin-top: 0;
+  color: #3D3D3D;
 }
 
 h1,
@@ -477,7 +478,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0rem;
   margin-bottom: 2.0rem;
   margin-top: 0;
