@@ -189,7 +189,7 @@ fieldset {
 }
 
 .header {
-  margin: 0 auto;
+  margin-bottom: 1rem;
   background-color: #59BEDC;
   color: #99999a;
   width: 100%;
