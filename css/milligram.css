@@ -189,14 +189,14 @@ fieldset {
 }
 
 .header {
-  margin-bottom: 20px;
+  padding-bottom: 20px;
   background-color: #59BEDC;
   color: #99999a;
   width: 100%;
 }
 
 .footer {
-  margin-bottom: 20px;
+  padding-bottom: 20px;
   background-color: #F3F3F3;
   color: #99999a;
   width: 100%;
@@ -470,7 +470,6 @@ h4,
 h5,
 h6 {
   font-weight: 300;
-  letter-spacing: -.1rem;
   margin-bottom: 2.0rem;
   margin-top: 0;
 }
