@@ -22,7 +22,7 @@ html {
 body {
   color: #606c76;
   font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-  font-size: 1.6em;
+  font-size: 1em;
   font-weight: 300;
   line-height: 1.6;
   letter-spacing: 0;
@@ -58,7 +58,7 @@ button {
   text-decoration: none;
   text-transform: uppercase;
   white-space: nowrap;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.15rem;
 }
 
 .button:focus, .button:hover,
@@ -477,8 +477,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 300;
-  letter-spacing: 0.1rem;
+  font-weight: 200;
+  letter-spacing: 0rem;
   margin-bottom: 2.0rem;
   margin-top: 0;
 }
