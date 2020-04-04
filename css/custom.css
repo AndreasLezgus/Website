@@ -60,6 +60,8 @@ button {
   text-decoration: none;
   text-transform: uppercase;
   white-space: nowrap;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .button:focus, .button:hover,
