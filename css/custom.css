@@ -579,7 +579,7 @@ label .icon-font {
 /* Larger than mobile screen */
 @media (min-width: 42.0rem) {
   .row {
-    flex-direction: column;
+    flex-direction: row;
     margin-left: -1.0rem;
     width: calc(100% + 2.0rem);
   }
