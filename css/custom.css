@@ -524,11 +524,13 @@ h4 {
 h5 {
   font-size: 1.8rem;
   line-height: 1.5;
+  letter-spacing: 0;
 }
 
 h6 {
   font-size: 1.6rem;
   line-height: 1.4;
+  letter-spacing: 0;
 }
 
 img {
