@@ -218,13 +218,22 @@ fieldset {
 
 .footer {
   margin: 0 auto;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top:3rem;
+  padding-bottom:3rem;
   background-color: #F3F3F3;
   color: #99999a;
   width: 100%;
 }
 
+.footer a{
+
+  color: #99999a;
+
+}
+
+.footer li{
+
+}
 
 .row {
   display: flex;
@@ -428,7 +437,7 @@ ol {
 }
 
 ul {
-  list-style: circle inside;
+  list-style: none;
 }
 
 .button,
