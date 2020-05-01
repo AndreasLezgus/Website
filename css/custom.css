@@ -229,7 +229,7 @@ fieldset {
   list-style: none;
 }
 
-.footlink {
+.footlink p{
   color: #99999a;
   font-size: 0.8em;
 }
