@@ -225,12 +225,14 @@ fieldset {
   width: 100%;
 }
 
-.footer a{
+.footlink a{
   color: #99999a;
+  font-size: 0.8em;
 }
 
-.footer li{
-
+.footline {
+  font-size: 0.8em;
+  color: #4B4B4B;
 }
 
 .row {
