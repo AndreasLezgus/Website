@@ -225,12 +225,12 @@ fieldset {
   width: 100%;
 }
 
-.footlink a{
+li .footlink a{
   color: #99999a;
   font-size: 0.8em;
 }
 
-.footline {
+li .footline {
   font-size: 0.8em;
   color: #4B4B4B;
 }
