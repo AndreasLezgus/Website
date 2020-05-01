@@ -229,6 +229,11 @@ fieldset {
   list-style: none;
 }
 
+.footlink {
+  color: #99999a;
+  font-size: 0.8em;
+}
+
 .footlink a{
   color: #99999a;
   font-size: 0.8em;
