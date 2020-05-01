@@ -494,7 +494,7 @@ h4,
 h5,
 h6 {
   font-weight: 400;
-  /*letter-spacing: 0.1rem;*/
+  letter-spacing: 0.1rem;
   margin-bottom: 2.0rem;
   margin-top: 0;
 }
@@ -530,7 +530,7 @@ h5 {
 h6 {
   font-size: 1.6rem;
   line-height: 1.4;
-  letter-spacing: 0;
+  letter-spacing: 0.1rem;
 }
 
 img {
