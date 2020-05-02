@@ -201,13 +201,8 @@ ul {
   list-style: none;
 }
 
-.footlink p{
-  color: #99999a;
-  font-size: 0.8em;
-}
-
 .footlink a{
-  color: #ACACAC;
+  color: #808080;
   font-size: 0.8em;
 }
 
