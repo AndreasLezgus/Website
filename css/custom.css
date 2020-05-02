@@ -195,16 +195,9 @@ ul {
   background-color: #F3F3F3;
   color: #99999a;
   width: 100%;
-  padding-left: 0rem;
+  padding-left: 0;
 }
 
-.footer .container{
-  padding: 0;
-}
-
-.footer .column{
-  padding: 0;
-}
 
 .footlink a{
   color: #808080;
