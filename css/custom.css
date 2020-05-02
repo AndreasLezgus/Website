@@ -212,7 +212,7 @@ ul {
 }
 
 
-.twitter a:hover {
+a:hover .twitter{
   color: blue;
 }
 
