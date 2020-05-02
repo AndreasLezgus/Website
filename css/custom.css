@@ -220,7 +220,23 @@ ul {
 }
 
 a .fa-twitter:hover{
-  color:blue;
+  color:#1BA1F3;
+}
+
+a .fa-facebook:hover{
+  color:#1977F2;
+}
+
+a .fa-linkedin:hover{
+  color:#006FB1;
+}
+
+a .fa-github:hover{
+  color:#000000;
+}
+
+a .fa-youtube:hover{
+  color:#FF0100;
 }
 
 .row {
