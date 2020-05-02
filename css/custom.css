@@ -211,6 +211,9 @@ ul {
   padding-bottom: 12px;
 }
 
+a .fa-twitter:hover{
+  color:blue;
+}
 
 .row {
   display: flex;
