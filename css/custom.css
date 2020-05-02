@@ -146,7 +146,7 @@ ul {
 .container {
   margin: 0 auto;
   max-width: 112.0rem;
-  padding: 2rem;
+  padding: 0rem;
   position: relative;
   width: 100%;
 }
@@ -192,7 +192,6 @@ ul {
   margin: 0 auto;
   padding-top: 20px;
   padding-bottom: 30px;
-  padding-left: -20px;
   background-color: #F3F3F3;
   color: #99999a;
   width: 100%;
@@ -207,7 +206,7 @@ ul {
   font-size: 0.8em;
   color: #4B4B4B;
   font-weight: bold;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 
