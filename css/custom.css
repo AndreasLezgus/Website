@@ -189,16 +189,11 @@ ul {
 
 .footer {
   margin: 0 auto;
-  padding-top:5rem;
-  padding-bottom:5rem;
   background-color: #F3F3F3;
   color: #99999a;
   width: 100%;
 }
 
-.footer ul{
-  list-style: none;
-}
 
 .footlink a{
   color: #808080;
@@ -211,8 +206,7 @@ ul {
   font-weight: bold;
 }
 
-
-a:hover .twitter{
+.twitter:hover{
   color: blue;
 }
 
