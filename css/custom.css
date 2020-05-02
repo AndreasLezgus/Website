@@ -191,7 +191,7 @@ ul {
 .footer {
   margin: 0 auto;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   background-color: #F3F3F3;
   color: #99999a;
   width: 100%;
@@ -206,6 +206,7 @@ ul {
   font-size: 0.8em;
   color: #4B4B4B;
   font-weight: bold;
+  padding-bottom: 10px;
 }
 
 
