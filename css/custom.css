@@ -146,7 +146,7 @@ ul {
 .container {
   margin: 0 auto;
   max-width: 112.0rem;
-  padding: 0 2.0rem;
+  padding: 2rem;
   position: relative;
   width: 100%;
 }
@@ -190,8 +190,8 @@ ul {
 
 .footer {
   margin: 0 auto;
-  padding-top:3rem;
-  padding-bottom:3rem;
+  padding-top:5rem;
+  padding-bottom:5rem;
   background-color: #F3F3F3;
   color: #99999a;
   width: 100%;
@@ -199,6 +199,11 @@ ul {
 
 .footer ul{
   list-style: none;
+}
+
+.footlink p{
+  color: #99999a;
+  font-size: 0.8em;
 }
 
 .footlink a{
