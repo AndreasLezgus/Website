@@ -198,9 +198,9 @@ ul {
   padding-left: 0;
 }
 
-.footsocial{
+.footsocial a{
   color: #808080;
-  padding-top: 5px;
+  padding-top: 10px;
 }
 
 .footlink a{
