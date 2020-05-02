@@ -211,11 +211,8 @@ ul {
   font-weight: bold;
 }
 
-.fa-twitter {
-  color:blue;
-}
 
-.fa-twitter:hover {
+.twitter a:hover {
   color: blue;
 }
 
