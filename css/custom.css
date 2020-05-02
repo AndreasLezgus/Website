@@ -557,9 +557,49 @@ label .menu {
   border-radius: 10% 10% 10% 10%;
   -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
+  box-shadow: 0 0 0 0 #9091E1, 0 0 0 0 #59BEDC;
+  cursor: pointer;
+}
+
+label .menu .geschichte{
+  position: absolute;
+  top: -105px;
+  z-index: 100;
+  width: 100px;
+  height: 150px;
+  border-radius: 10% 10% 10% 10%;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  box-shadow: 0 0 0 0 #9091E1, 0 0 0 0 #64C8CD;
+  cursor: pointer;
+}
+
+label .menu .portfolio{
+  position: absolute;
+  top: -105px;
+  z-index: 100;
+  width: 100px;
+  height: 150px;
+  border-radius: 10% 10% 10% 10%;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  box-shadow: 0 0 0 0 #9091E1, 0 0 0 0 #FF9096;
+  cursor: pointer;
+}
+
+label .menu .transparenz{
+  position: absolute;
+  top: -105px;
+  z-index: 100;
+  width: 100px;
+  height: 150px;
+  border-radius: 10% 10% 10% 10%;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
   box-shadow: 0 0 0 0 #9091E1, 0 0 0 0 #9091E1;
   cursor: pointer;
 }
+
 
 label .hamburger {
   position:absolute;
@@ -594,9 +634,28 @@ label input { display: none; }
 
 label input:checked + .menu {
   background: #9091E1;
+  box-shadow: 0 0 0 100vw #9091E1, 0 0 0 100vh #59BEDC;
+  border-radius: 0;
+}
+
+label input:checked + .menu .geschichte{
+  background: #9091E1;
+  box-shadow: 0 0 0 100vw #9091E1, 0 0 0 100vh #64C8CD;
+  border-radius: 0;
+}
+
+label input:checked + .menu .portfolio{
+  background: #9091E1;
+  box-shadow: 0 0 0 100vw #9091E1, 0 0 0 100vh #FF9096;
+  border-radius: 0;
+}
+
+label input:checked + .menu .transparenz{
+  background: #9091E1;
   box-shadow: 0 0 0 100vw #9091E1, 0 0 0 100vh #9091E1;
   border-radius: 0;
 }
+
 
 label input:checked + .menu .hamburger {
   -webkit-transform: rotate(45deg);
