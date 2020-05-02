@@ -192,6 +192,7 @@ ul {
   margin: 0 auto;
   padding-top: 20px;
   padding-bottom: 30px;
+  padding-left: -20px;
   background-color: #F3F3F3;
   color: #99999a;
   width: 100%;
