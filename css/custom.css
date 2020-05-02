@@ -77,7 +77,6 @@ h6 {
 }
 
 a {
-  color: #9b4dca;
   text-decoration: none;
 }
 
@@ -213,7 +212,7 @@ ul {
 }
 
 .fa-twitter {
-  color:grey;
+  color:blue;
 }
 
 .fa-twitter:hover {
