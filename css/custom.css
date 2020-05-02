@@ -633,19 +633,19 @@ label .hamburger:after { bottom: -8px; }
 label input { display: none; }
 
 label input:checked + .menu {
-  background: #9091E1;
+  background: #59BEDC;
   box-shadow: 0 0 0 100vw #9091E1, 0 0 0 100vh #59BEDC;
   border-radius: 0;
 }
 
 label input:checked + .menu .geschichte{
-  background: #9091E1;
+  background: #64C8CD;
   box-shadow: 0 0 0 100vw #9091E1, 0 0 0 100vh #64C8CD;
   border-radius: 0;
 }
 
 label input:checked + .menu .portfolio{
-  background: #9091E1;
+  background: #FF9096;
   box-shadow: 0 0 0 100vw #9091E1, 0 0 0 100vh #FF9096;
   border-radius: 0;
 }
