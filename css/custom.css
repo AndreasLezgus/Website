@@ -212,6 +212,10 @@ ul {
   font-weight: bold;
 }
 
+.fa-twitter:hover {
+  color: blue;
+}
+
 .row {
   display: flex;
   flex-direction: column;
