@@ -251,17 +251,13 @@ ul {
   padding-top: 20px;
   padding-bottom: 30px;
   background-color: #F3F3F3;
-  color: #99999a;
+  color: #808080;
   width: 100%;
   padding-left: 0;
-}
-
-.footlink a{
-  color: #808080;
   font-size: 0.8em;
 }
 
-p .footlink {
+.footlink a{
   color: #808080;
   font-size: 0.8em;
 }
