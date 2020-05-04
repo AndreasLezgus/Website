@@ -185,7 +185,7 @@ ul {
 }
 
 .nav a{
-  padding-right: 5px;
+  padding-right: 10px;
 }
 
 /* Header */
@@ -276,7 +276,7 @@ ul {
 
 .footsocial a{
   color: #808080;
-  padding-right: 5px;
+  padding-right: 10px;
 }
 
 a .fa-twitter:hover{
@@ -295,8 +295,8 @@ a .fa-github:hover{
   color:#000000;
 }
 
-a .fa-youtube:hover{
-  color:#FF0100;
+a .fa-instagram:hover{
+  color:#C10088;
 }
 
 .row {
