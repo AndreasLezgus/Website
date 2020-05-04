@@ -576,8 +576,6 @@ button.button-clear[disabled]:hover {
 /* Card design */
 .card {
   background-color: #fff;
-  -moz-border-radius: 1px;
-  -webkit-border-radius: 1px;
   border: 1px;
   color: rgba(0,0,0,.87);
   margin: 8px;
