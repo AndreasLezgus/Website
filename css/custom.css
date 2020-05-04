@@ -646,6 +646,7 @@ label .hamburger:after { bottom: -8px; }
 
 label input { display: none; }
 
+
 label input:checked + .menu {
   background: #59BEDC;
   box-shadow: 0 0 0 100vw #59BEDC, 0 0 0 100vh #59BEDC;
@@ -691,64 +692,22 @@ label input:checked + .hamburger:before {
 label input:checked + .menu + ul { opacity: 1; }
 
 
-label input:checked + .geschichte .hamburger {
+label input:checked + .hamburger {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
-label input:checked + .geschichte .hamburger:after {
+label input:checked + .hamburger:after {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   bottom: 0;
 }
 
-label input:checked + .geschichte .hamburger:before {
+label input:checked + .hamburger:before {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   top: 0;
 }
-
-label input:checked + .geschichte + ul { opacity: 1; }
-
-
-label input:checked + .portfolio .hamburger {
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-label input:checked + .portfolio .hamburger:after {
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
-  bottom: 0;
-}
-
-label input:checked + .portfolio .hamburger:before {
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
-  top: 0;
-}
-
-label input:checked + .portfolio + ul { opacity: 1; }
-
-
-label input:checked + .hamburger .transparenz {
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-label input:checked + .hamburger:after .transparenz{
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
-  bottom: 0;
-}
-
-label input:checked +  .hamburger:before .transparenz{
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
-  top: 0;
-}
-
-label input:checked + .transparenz + ul { opacity: 1; }
 
 
 
