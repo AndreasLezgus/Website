@@ -677,6 +677,11 @@ label input:checked + .hamburger {
   transform: rotate(45deg);
 }
 
+label input:checked + .hamburger + .geschichte{
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
 label input:checked + .hamburger:after {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
@@ -734,10 +739,7 @@ label a:hover {
   text-decoration-style: dotted;
 
 }
-label .icon-font {
-  margin-right: 20px;
 
-}
 
 
 
