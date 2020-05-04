@@ -151,6 +151,7 @@ ul {
   width: 100%;
 }
 
+/* Navigation */
 .nav {
   margin: 0 auto;
   background-color: #59BEDC;
@@ -183,6 +184,11 @@ ul {
   width: 100%;
 }
 
+.nav a{
+  padding-right: 5px;
+}
+
+/* Header */
 .header {
   margin: 0 auto;
   padding-top: 10px;
@@ -219,7 +225,11 @@ ul {
   width: 100%;
 }
 
+.tagline {
+  color: #FFF;
+}
 
+/* Page elements */
 .landing {
   margin: 0 auto;
   padding-top: 20px;
@@ -236,6 +246,7 @@ ul {
   width: 100%;
 }
 
+/* Footer */
 .footer {
   margin: 0 auto;
   padding-top: 20px;
@@ -244,11 +255,6 @@ ul {
   color: #99999a;
   width: 100%;
   padding-left: 0;
-}
-
-
-.tagline {
-  color: #FFF;
 }
 
 .footlink a{
@@ -270,6 +276,7 @@ ul {
 
 .footsocial a{
   color: #808080;
+  padding-right: 5px;
 }
 
 a .fa-twitter:hover{
