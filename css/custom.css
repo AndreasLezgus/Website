@@ -95,7 +95,8 @@ p {
 }
 
 img {
-  max-width: 100%;
+    height: auto;
+    width: 100%;
 }
 
 blockquote {
@@ -119,9 +120,10 @@ code {
 }
 
 hr {
-  border: 0;
-  border-top: 0.1rem solid #f4f5f6;
-  margin: 3.0rem 0;
+    background-color: rgba(0,0,0,0.12);
+    border: none;
+    height: 1px;
+    margin: 0;
 }
 
 fieldset {
@@ -133,6 +135,18 @@ fieldset {
 ul {
   list-style: none;
   padding-bottom: 5px;
+}
+
+textarea {
+    background: transparent;
+    border: 0;
+    margin: 0;
+    outline: none;
+    padding: 0;
+    position: relative;
+    resize: none;
+    top: 11px;
+    word-wrap: break-word;
 }
 
 
@@ -560,62 +574,10 @@ button.button-clear[disabled]:hover {
 }
 
 /* Card design */
-hr {
-    background-color: rgba(0,0,0,0.12);
-    border: none;
-    height: 1px;
-    margin: 0;
-}
-img {
-    height: auto;
-    width: 100%;
-}
-textarea {
-    background: transparent;
-    border: 0;
-    font-family: Roboto, Arial, sans-serif;
-    margin: 0;
-    outline: none;
-    padding: 0;
-    position: relative;
-    resize: none;
-    top: 11px;
-    word-wrap: break-word;
-}
 
 [class^='col-'] {
     float: left;
     padding: 0 0.5%;
-}
-h1 {
-    font-size: 96px;
-    font-weight: 300;
-    letter-spacing: -1.5px;
-}
-h2 {
-    font-size: 60px;
-    font-weight: 300;
-    letter-spacing: -0.5px;
-}
-h3 {
-    font-size: 48px;
-    font-weight: 400;
-    letter-spacing: 0;
-}
-h4 {
-    font-size: 34px;
-    font-weight: 400;
-    letter-spacing: 0.25px;
-}
-h5 {
-    font-size: 24px;
-    font-weight: 400;
-    letter-spacing: 0;
-}
-h6 {
-    font-size: 20px;
-    font-weight: 500;
-    letter-spacing: 0.15px;
 }
 
 .subtitle-01 {
@@ -650,7 +612,7 @@ h6 {
     letter-spacing: 1.5px;
     text-transform: uppercase;
 }
-.button {
+.button_action {
     background-color: transparent;
     border: none;
     -moz-border-radius: 2px;
@@ -670,7 +632,7 @@ h6 {
     text-transform: uppercase;
 }
 
-.button, .action-icon {
+.button_action, .action-icon {
     -webkit-transition: box-shadow .4s cubic-bezier(.25, .8, .25, 1), background-color .4s cubic-bezier(.25, .8, .25, 1);
     transition: box-shadow .4s cubic-bezier(.25, .8, .25, 1), background-color .4s cubic-bezier(.25, .8, .25, 1);
 }
@@ -693,20 +655,20 @@ h6 {
     background-color: #6200EE;
     color: #fff;
 }
-.button:hover, .action-icon:hover {
+.button_action:hover, .action-icon:hover {
     background-color: rgba(158,158,158,0.2);
 }
-.button:active, .action-icon:active {
+.button_action:active, .action-icon:active {
     background-color: rgba(158,158,158,0.4);
 }
-.button:focus:not(:active), .action-icon:focus:not(:active) {
+.button_action:focus:not(:active), .action-icon:focus:not(:active) {
     background-color: rgba(0,0,0,.12);
 }
-.button[disabled] {
+.button_action[disabled] {
     color: rgba(0,0,0,.26);
     cursor: default;
 }
-.button[disabled]:hover {
+.button_action[disabled]:hover {
     background: none;
 }
 .action-buttons, .action-icons {
@@ -817,10 +779,7 @@ h6 {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-.content {
-    margin: 0 auto;
-    max-width: 1440px;
-}
+
 .float-left {
     float: left!important;
 }
