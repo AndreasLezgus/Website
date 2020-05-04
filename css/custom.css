@@ -644,10 +644,6 @@ label .hamburger:before { top: -8px; }
 
 label .hamburger:after { bottom: -8px; }
 
-label .geschichte .hamburger:before { top: -8px; }
-
-label .geschichte .hamburger:after { bottom: -8px; }
-
 
 label input { display: none; }
 
