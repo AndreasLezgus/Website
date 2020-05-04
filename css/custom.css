@@ -198,7 +198,7 @@ ul {
   width: 100%;
 }
 
-.geschichte{
+.geschichte_header{
   margin: 0 auto;
   padding-top: 10px;
   padding-bottom: 20px;
@@ -207,7 +207,7 @@ ul {
   width: 100%;
 }
 
-.portfolio{
+.portfolio_header{
   margin: 0 auto;
   padding-top: 10px;
   padding-bottom: 20px;
@@ -216,7 +216,7 @@ ul {
   width: 100%;
 }
 
-.transparenz{
+.transparenz_header{
   margin: 0 auto;
   padding-top: 10px;
   padding-bottom: 20px;
