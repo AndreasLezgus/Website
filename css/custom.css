@@ -792,6 +792,16 @@ button.button-clear[disabled]:hover {
   width: auto;
 }
 
+.primary-title + .supporting-text, .optional-header + .supporting-text {
+  padding-top: 0;
+}
+
+.supporting-text {
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 16px;
+}
+
 
 
 
