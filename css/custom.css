@@ -615,7 +615,7 @@ label .transparenz{
 }
 
 
-label .hamburger {
+label .menu .hamburger{
   position:absolute;
   top: 135px;
   left: 20px;
@@ -629,7 +629,7 @@ label .hamburger {
   transition: .5s ease-in-out;
 }
 
-label .hamburger:after, label .hamburger:before {
+label .menu .hamburger:after, label .menu .hamburger:before {
   -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
   content: "";
@@ -640,9 +640,9 @@ label .hamburger:after, label .hamburger:before {
   background: #FFF;
 }
 
-label .hamburger:before { top: -8px; }
+label .menu .hamburger:before { top: -8px; }
 
-label .hamburger:after { bottom: -8px; }
+label .menu .hamburger:after { bottom: -8px; }
 
 
 label input { display: none; }
