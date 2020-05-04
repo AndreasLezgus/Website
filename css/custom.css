@@ -615,7 +615,7 @@ label .transparenz{
 }
 
 
-label .menu .hamburger{
+label .hamburger{
   position:absolute;
   top: 135px;
   left: 20px;
@@ -629,7 +629,7 @@ label .menu .hamburger{
   transition: .5s ease-in-out;
 }
 
-label .menu .hamburger:after, label .menu .hamburger:before {
+label .hamburger:after, label .hamburger:before {
   -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
   content: "";
@@ -640,100 +640,9 @@ label .menu .hamburger:after, label .menu .hamburger:before {
   background: #FFF;
 }
 
-label .menu .hamburger:before { top: -8px; }
+label .hamburger:before { top: -8px; }
 
-label .menu .hamburger:after { bottom: -8px; }
-
-label .geschichte .hamburger{
-  position:absolute;
-  top: 135px;
-  left: 20px;
-  width: 30px;
-  height: 2px;
-  background: #FFF;
-  display: block;
-  -webkit-transform-origin: center;
-  transform-origin: center;
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
-}
-
-label .geschichte .hamburger:after, label .geschichte .hamburger:before {
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
-  content: "";
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 100%;
-  background: #FFF;
-}
-
-label .geschichte .hamburger:before { top: -8px; }
-
-label .geschichte .hamburger:after { bottom: -8px; }
-
-
-label .portfolio .hamburger{
-  position:absolute;
-  top: 135px;
-  left: 20px;
-  width: 30px;
-  height: 2px;
-  background: #FFF;
-  display: block;
-  -webkit-transform-origin: center;
-  transform-origin: center;
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
-}
-
-label .portfolio .hamburger:after, label .portfolio .hamburger:before {
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
-  content: "";
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 100%;
-  background: #FFF;
-}
-
-label .portfolio .hamburger:before { top: -8px; }
-
-label .portfolio .hamburger:after { bottom: -8px; }
-
-
-label .transparenz .hamburger{
-  position:absolute;
-  top: 135px;
-  left: 20px;
-  width: 30px;
-  height: 2px;
-  background: #FFF;
-  display: block;
-  -webkit-transform-origin: center;
-  transform-origin: center;
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
-}
-
-label .transparenz .hamburger:after, label .transparenz .hamburger:before {
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
-  content: "";
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 100%;
-  background: #FFF;
-}
-
-label .transparenz .hamburger:before { top: -8px; }
-
-label .transparenz .hamburger:after { bottom: -8px; }
-
-
+label .hamburger:after { bottom: -8px; }
 
 label input { display: none; }
 
