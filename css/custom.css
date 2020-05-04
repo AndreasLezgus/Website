@@ -822,24 +822,24 @@ label input:checked + .portfolio .hamburger:before {
 label input:checked + .portfolio + ul { opacity: 1; }
 
 
-label input:checked + .transparenz .hamburger {
+label .transparenz input:checked + .transparenz .hamburger {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
-label input:checked + .transparenz .hamburger:after {
+label .transparenz input:checked + .transparenz .hamburger:after {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   bottom: 0;
 }
 
-label input:checked + .transparenz .hamburger:before {
+label .transparenz input:checked + .transparenz .hamburger:before {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   top: 0;
 }
 
-label input:checked + .transparenz + ul { opacity: 1; }
+label .transparenz input:checked + .transparenz + ul { opacity: 1; }
 
 
 
