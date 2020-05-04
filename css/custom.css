@@ -700,7 +700,7 @@ label input:checked + .hamburger:before {
   top: 0;
 }
 
-label input:checked + + .geschichte .hamburger:before {
+label input:checked + .geschichte + .hamburger:before {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   top: 0;
