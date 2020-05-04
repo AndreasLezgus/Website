@@ -577,7 +577,6 @@ button.button-clear[disabled]:hover {
 .card {
   background-color: #fff;
   border: 1px;
-  color: rgba(0,0,0,.87);
   margin: 8px;
   overflow: hidden;
   position: relative;
