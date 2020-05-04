@@ -138,7 +138,6 @@ ul {
 
 
 /* Grid */
-
 .wrapper {
   margin: 0;
 }
@@ -306,6 +305,8 @@ a .fa-instagram:hover{
   color:#C10088;
 }
 
+
+/* Grid rows*/
 .row {
   display: flex;
   flex-direction: column;
@@ -472,7 +473,6 @@ a .fa-instagram:hover{
 
 
 /* Buttons */
-
 .button,
 button {
   background-color: #063F60;
