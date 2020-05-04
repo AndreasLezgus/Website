@@ -724,7 +724,6 @@ button.button-clear[disabled]:hover {
   width: auto;
 }
 .media .primary-title {
-  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.46));
   bottom: 0;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
