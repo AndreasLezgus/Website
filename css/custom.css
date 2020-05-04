@@ -677,9 +677,15 @@ label input:checked + .hamburger {
   transform: rotate(45deg);
 }
 
-label input:checked + .hamburger + .geschichte{
+label input:checked + .geschichte + .hamburger {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+
+label input:checked + .geschichte + .hamburger:after {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  bottom: 0;
 }
 
 label input:checked + .hamburger:after {
@@ -689,6 +695,12 @@ label input:checked + .hamburger:after {
 }
 
 label input:checked + .hamburger:before {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  top: 0;
+}
+
+label input:checked + + .geschichte .hamburger:before {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   top: 0;
