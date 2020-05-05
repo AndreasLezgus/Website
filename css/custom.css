@@ -572,6 +572,47 @@ button.button-clear[disabled]:hover {
   padding: 16px;
   position: relative;
 }
+.optional-header .action-icons {
+  float: right;
+  position: relative;
+  right: -8px;
+  top: 2px;
+
+}
+.optional-header .primary-title {
+  bottom: auto;
+  display: inline-block;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+.optional-header + .primary-text {
+  margin-top: 12px;
+}
+.optional-header + .supporting-text {
+  padding-top: 0;
+}
+
+.subhead, .secondary-text {
+  color: rgba(0,0,0,.54);
+  font-size: 14px;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 500;
+}
+.title + .subhead {
+  margin-top: 7px;
+}
+.title {
+  line-height: 1.2;
+}
 
 
 /* Card: thumbnail*/
