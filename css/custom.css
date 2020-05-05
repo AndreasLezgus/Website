@@ -878,7 +878,19 @@ label .transparenz{
   cursor: pointer;
 }
 
-
+label .hamburger {
+  position:absolute;
+  top: 135px;
+  left: 20px;
+  width: 30px;
+  height: 2px;
+  background: #FFF;
+  display: block;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
 
 
 label .hamburger:after, label .hamburger:before {
