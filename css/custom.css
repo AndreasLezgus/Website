@@ -893,11 +893,18 @@ label .hamburger {
   transition: .5s ease-in-out;
 }
 
+label .hamburger:after, label .hamburger:before {
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #FFF;
+}
 
 
-label .hamburger:before { top: -8px; }
-
-label .hamburger:after { bottom: -8px; }
 
 
 label input { display: none; }
