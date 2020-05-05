@@ -178,19 +178,11 @@ textarea {
 }
 
 .nav .portfolio{
-  margin: 0 auto;
   background-color: #9091E1;
-  color: #99999a;
-  height: 60px;
-  width: 100%;
 }
 
 .nav .transparenz{
-  margin: 0 auto;
   background-color: #FF9096;
-  color: #99999a;
-  height: 60px;
-  width: 100%;
 }
 
 .nav a{
