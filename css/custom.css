@@ -443,7 +443,7 @@ a .fa-instagram:hover{
       align-self: center;
 }
 
-@media (min-width: 40rem) {m
+@media (min-width: 40rem) {
   .row {
     flex-direction: row;
     margin-left: -1.0rem;
