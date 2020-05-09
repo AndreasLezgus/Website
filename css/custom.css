@@ -555,6 +555,7 @@ button.button-clear[disabled]:hover {
   border-radius: 4px;
   color: rgba(0,0,0,.87);
   margin-bottom: 20px;
+  margin-right: 20px;
   overflow: hidden;
   position: relative;
 }
