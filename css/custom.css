@@ -554,7 +554,7 @@ button.button-clear[disabled]:hover {
   -webkit-border-radius: 4px;
   border-radius: 4px;
   color: rgba(0,0,0,.87);
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   overflow: hidden;
   position: relative;
 }
