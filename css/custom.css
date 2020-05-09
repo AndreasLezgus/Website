@@ -690,6 +690,7 @@ height: 40px;
 position: relative;
 width: 40px;
 }
+
 .thumbnail img {
 background-color: #fff;
 -moz-border-radius: 50%;
@@ -703,130 +704,17 @@ top: 50%;
 -webkit-transform: translate(0, -50%);
 transform: translate(0, -50%);
 }
-.thumbnail--24x24 img {
-height: 24px;
-width: 24px;
-}
-.thumbnail--28x28 {
-margin-right: 4px;
-}
-.thumbnail--28x28 img {
-height: 28px;
-width: 28px;
-}
-.thumbnail--32x32 {
-margin-right: 8px;
-}
-.thumbnail--32x32 img {
-height: 32px;
-width: 32px;
-}
-.thumbnail--36x36 {
-margin-right: 12px;
-}
-.thumbnail--36x36 img {
-height: 36px;
-width: 36px;
-}
-.thumbnail--40x40 {
-margin-right: 16px;
-}
-.thumbnail--40x40 img {
-height: 40px;
-width: 40px;
-}
-
 
 /* Card: media*/
 .media {
   position: relative;
 }
-.media .action-icon {
-  color: #fff;
-  text-shadow: 0 2px 2px rgba(0,0,0,0.54);
-}
-.media .actions {
-  background-image: linear-gradient(rgba(0,0,0,.38), rgba(0,0,0,0));
-  color: #fff;
-  position: absolute;
-  width: 100%;
-}
-.media .optional-header {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  color: #fff;
-  display: block;
-  float: left;
-  width: 100%;
-  z-index: 100;
-}
-.media .optional-header .primary-title {
-  background-image: none;
-  width: auto;
-}
-.media .primary-title {
-  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.46));
-  bottom: 0;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  padding: 16px 16px 24px;
-  position: absolute;
-  width: 100%;
-  z-index: 1;
-}
+
 [class*='media--'] {
   height: 0;
   overflow: hidden;
 }
-.media--1-1 {
-  padding-bottom: 100%;
-}
-.media--16-9 {
-  padding-bottom: 56.25%;
-}
-.media--16-9 > img, .media--3-2 > img, .media--4-3 > img {
-  height: auto;
-  left: 50%;
-  top: 50%;
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  width: 100%;
-}
-.media--16-9 img, .media--3-2 img, .media--4-3 img, .media--80x80 img, .media--1-1 img, .media--3-4 img, .media--2-3 img {
-  position: absolute;
-}
-.media--2-3 {
-  padding-bottom: 150%;
-}
-.media--3-2 {
-  padding-bottom: 66.66%;
-}
-.media--3-4 {
-  padding-bottom: 133.33%;
-}
-.media--4-3 {
-  padding-bottom: 75%;
-}
-.media--80x80 {
-  margin: 16px;
-  padding-bottom: 80px;
-  width: 80px;
-}
-.media--80x80 > img, .media--1-1 > img, .media--3-4 > img, .media--2-3 > img {
-  height: 100%;
-  left: 50%;
-  -moz-transform: translate(-50%, 0);
-  -ms-transform: translate(-50%, 0);
-  -o-transform: translate(-50%, 0);
-  -webkit-transform: translate(-50%, 0);
-  transform: translate(-50%, 0);
-  width: auto;
-}
+
 
 
 /* Hamburger Menu Styles with different color to page color */
