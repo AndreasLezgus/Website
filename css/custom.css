@@ -133,8 +133,6 @@ ul {
 
 
 
-
-
 /* Grid */
 .wrapper {
   margin: 0;
@@ -445,7 +443,7 @@ a .fa-instagram:hover{
       align-self: center;
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 40rem) {m
   .row {
     flex-direction: row;
     margin-left: -1.0rem;
@@ -453,7 +451,7 @@ a .fa-instagram:hover{
   }
   .row .column {
     margin-bottom: inherit;
-    padding: 0 1.0rem;
+    padding: 0;
   }
 
 }
