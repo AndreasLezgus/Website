@@ -446,7 +446,7 @@ a .fa-instagram:hover{
 @media (min-width: 40rem) {m
   .row {
     flex-direction: row;
-    margin-left: -1.0rem;
+    margin-left: 0;
     width: calc(100% + 2.0rem);
   }
   .row .column {
