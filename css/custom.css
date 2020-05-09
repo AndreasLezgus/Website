@@ -453,6 +453,10 @@ a .fa-instagram:hover{
     margin-bottom: inherit;
     padding: 0 1.0rem;
   }
+  .footer .row {
+  margin: 0;
+  padding: 0;
+  }
 
 }
 
