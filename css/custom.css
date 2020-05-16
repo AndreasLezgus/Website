@@ -745,6 +745,11 @@ transform: translate(0, -50%);
   position: relative;
 }
 
+.timeline ul {
+  padding:0;
+  margin:0;
+}
+
 .timeline ul::before {
     content: ' ';
     height: 100%;
