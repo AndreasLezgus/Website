@@ -253,6 +253,39 @@ ul {
   color:#34C759;
 }
 
+.red{
+  color:#DC453F;
+}
+
+.focus{
+  color:#000;
+}
+
+.focus li{
+  list-style: disc;
+}
+
+.focus span{
+  color: #808080;
+}
+
+.microphone li{
+  list-style:circle;
+  color: #000;
+}
+
+.microphone h3{
+  font-size: 1em;
+  color: #808080;
+}
+.microphone h4{
+  font-size: 1em;
+  color:#000;
+}
+
+
+
+
 /* Footer */
 .footer {
   margin: 0 auto;
