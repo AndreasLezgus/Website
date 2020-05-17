@@ -693,6 +693,12 @@ button.button-clear[disabled]:hover {
     padding-top: 10px;
 }
 
+.action-icons a .fa-linkedin{
+    color:#006FB1;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
 .action-button {
     background-color: transparent;
     color:#000;
