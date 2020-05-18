@@ -177,7 +177,9 @@ ul {
   margin: 0 auto;
   padding-top: 10px;
   padding-bottom: 20px;
-  background-color: #59BEDC;
+  background-color: #
+  
+  ;
   color: #99999a;
   width: 100%;
 }
@@ -237,6 +239,7 @@ ul {
   padding-bottom: 20px;
   color: #000;
   width: 100%;
+  background-color: #59BEDC;
 }
 
 .headline h2{
