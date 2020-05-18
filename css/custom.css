@@ -177,9 +177,7 @@ ul {
   margin: 0 auto;
   padding-top: 10px;
   padding-bottom: 20px;
-  background-color: #
-  
-  ;
+  background-color: #59BEDC;
   color: #99999a;
   width: 100%;
 }
@@ -692,12 +690,6 @@ button.button-clear[disabled]:hover {
 
 .action-icons a .fa-twitter{
     color:#1BA1F3;
-    padding-right: 10px;
-    padding-top: 10px;
-}
-
-.action-icons a .fa-linkedin{
-    color:#006FB1;
     padding-right: 10px;
     padding-top: 10px;
 }
