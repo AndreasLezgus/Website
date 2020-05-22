@@ -172,6 +172,7 @@ ul {
   padding-right: 15px;
 }
 
+
 /* Header */
 .header {
   margin: 0 auto;
@@ -698,6 +699,7 @@ button.button-clear[disabled]:hover {
     padding-right: 10px;
     padding-top: 10px;
 }
+
 
 .action-button {
     background-color: transparent;
