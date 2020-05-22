@@ -214,7 +214,7 @@ ul {
   color: #FFF;
 }
 
-.tagline img{
+img .tagline {
   width: 30px;
   height: 30px;
 }
