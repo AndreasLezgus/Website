@@ -214,6 +214,14 @@ ul {
   color: #FFF;
 }
 
+.tagline img{
+  width: 100px;
+  height: 100px;
+}
+
+      
+      
+
 /* Page elements */
 .landing {
   margin: 0 auto;
