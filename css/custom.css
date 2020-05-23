@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  color: #F5FAFE;
+  color: #000;
   font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
   font-size: 1.6em;
   font-weight: 300;
@@ -136,7 +136,7 @@ ul {
 /* Grid */
 .wrapper {
   margin: 0;
-  background-color: #F5FAFE;
+  background-color: #FFF;
 }
 
 .container {
