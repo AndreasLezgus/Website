@@ -514,10 +514,7 @@ a .fa-instagram:hover{
     margin-bottom: inherit;
     padding: 0 1.0rem;
   }
-  .tagline img{
-    width:100%;
-    height: 100%;
-  }
+
 }
 
 
@@ -784,6 +781,19 @@ transform: translate(0, -50%);
 .thumbnail .fa-address-card{
     color:#18A59E;
 }
+
+.thumbnail .fa-graduation-cap{
+    color:#0C3F4E;
+}
+
+.thumbnail .fa-camera{
+    color:#15A895;
+}
+
+.thumbnail .fa-comments{
+    color:#F69224;
+}
+
 
 /* Card: media*/
 .media {
