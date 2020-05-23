@@ -302,6 +302,10 @@ ul {
   width: 100%;
 }
 
+.footer ul{
+  padding-left: 0;
+}
+
 .footlink a{
   color: #808080;
   font-size: 0.8em;
@@ -795,7 +799,7 @@ transform: translate(0, -50%);
 }
 
 .thumbnail .fa-user-shield{
-    color:#FFCE55;
+    color:#FF907E;
 }
 
 .thumbnail .fa-lock{
@@ -803,15 +807,15 @@ transform: translate(0, -50%);
 }
 
 .thumbnail .fa-volume-up{
-    color:#453859;
+    color:#FF0100;
 }
 
 .thumbnail .fa-microsoft{
-    color:#7A6AB0;
+    color:#7FBA02;
 }
 
 .thumbnail .fa-users{
-    color:#F7997D;
+    color:#02A4DB;
 }
 
 /* Card: media*/
