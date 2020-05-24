@@ -883,7 +883,7 @@ transform: translate(0, -50%);
   margin:0;
 }
 
-.timeline ul:before {
+.timeline ul::before {
     content: ' ';
     height: 100%;
     width: 1px;
