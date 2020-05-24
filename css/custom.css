@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  color: #F5FAFE;
+  color: #000;
   font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
   font-size: 1.6em;
   font-weight: 300;
@@ -136,7 +136,7 @@ ul {
 /* Grid */
 .wrapper {
   margin: 0;
-  background-color: #F5FAFE;
+  background-color: #FFF;
 }
 
 .container {
@@ -215,12 +215,9 @@ ul {
 }
 
 .tagline img{
-  width: auto;
-  height: auto;
+  width:80%;
+  height: 80%;
 }
-
-      
-      
 
 /* Page elements */
 .landing {
@@ -303,6 +300,10 @@ ul {
   background-color: #F3F3F3;
   color: #808080;
   width: 100%;
+}
+
+.footer ul{
+  padding-left: 0;
 }
 
 .footlink a{
@@ -517,6 +518,7 @@ a .fa-instagram:hover{
     margin-bottom: inherit;
     padding: 0 1.0rem;
   }
+
 }
 
 
@@ -614,7 +616,7 @@ button.button-clear[disabled]:hover {
   -webkit-border-radius: 4px;
   border-radius: 4px;
   color: rgba(0,0,0,.87);
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   margin-right: 20px;
   overflow: hidden;
   position: relative;
@@ -628,7 +630,7 @@ button.button-clear[disabled]:hover {
 }
 
 .optional-header {
-  min-height: 70px;
+  min-height: 55px;
   padding: 16px;
   position: relative;
   background-color: #FFF;
@@ -638,7 +640,6 @@ button.button-clear[disabled]:hover {
 .optional-header .primary-title {
     bottom: auto;
     display: inline-block;
-    padding: 10px;
     position: absolute;
     top: 50%;
     -moz-transform: translate(0, -50%);
@@ -649,17 +650,17 @@ button.button-clear[disabled]:hover {
 }
 
 .optional-header .title {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   line-height: 1.2;
-  margin-top: 7px;
+
 }
 
 .optional-header .subhead {
   margin-top: 7px;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: normal;
-  color: #000;
+  color: #063F60;
 }
 
 
@@ -709,7 +710,6 @@ button.button-clear[disabled]:hover {
 }
 
 
-
 .action-button {
     background-color: transparent;
     color:#000;
@@ -747,17 +747,15 @@ button.button-clear[disabled]:hover {
 }
 
 
-
-
 /* Card: thumbnail*/
 .thumbnail {
 -moz-border-radius: 50%;
 -webkit-border-radius: 50%;
 border-radius: 50%;
 float: left;
-height: 40px;
+height: 35px;
 position: relative;
-width: 40px;
+width: 35px;
 }
 
 .thumbnail img {
@@ -782,6 +780,42 @@ transform: translate(0, -50%);
 }
 .thumbnail .fa-address-card{
     color:#18A59E;
+}
+
+.thumbnail .fa-graduation-cap{
+    color:#0C3F4E;
+}
+
+.thumbnail .fa-camera{
+    color:#15A895;
+}
+
+.thumbnail .fa-comments{
+    color:#F69224;
+}
+
+.thumbnail .fa-github{
+    color:#282B45;
+}
+
+.thumbnail .fa-user-shield{
+    color:#FF907E;
+}
+
+.thumbnail .fa-lock{
+    color:#DD2F4B;
+}
+
+.thumbnail .fa-volume-up{
+    color:#FF0100;
+}
+
+.thumbnail .fa-microsoft{
+    color:#7FBA02;
+}
+
+.thumbnail .fa-users{
+    color:#02A4DB;
 }
 
 /* Card: media*/
