@@ -7,12 +7,20 @@
  * Licensed under the MIT license
  *
  */
+<<<<<<< HEAD
 
  *,
  *:after,
  *:before {
    box-sizing: inherit;
  }
+=======
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+>>>>>>> ae20792c8411872da508e3c9a2f5d24dfbe49ddc
 
 html {
   box-sizing: border-box;
@@ -878,7 +886,7 @@ transform: translate(0, -50%);
   position: relative;
 }
 
-.timeline ul {
+.timeline ul{
   padding:0;
   margin:0;
   list-style-type: none;
