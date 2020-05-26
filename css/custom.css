@@ -8,11 +8,11 @@
  *
  */
 
-*,
-*:after,
-*:before {
-  box-sizing: inherit;
-}
+ *,
+ *:after,
+ *:before {
+   box-sizing: inherit;
+ }
 
 html {
   box-sizing: border-box;
@@ -225,7 +225,6 @@ ul {
   padding-top: 20px;
   padding-bottom: 20px;
   color: #FFF;
-  background-color: #F5FAFE;
   width: 100%;
 }
 
@@ -882,10 +881,12 @@ transform: translate(0, -50%);
 .timeline ul {
   padding:0;
   margin:0;
+  list-style-type: none;
+  position: relative;
 }
 
-.timeline ul::before {
-    content: ' ';
+.row .column .timeline ul::before{
+    content: '';
     height: 100%;
     width: 1px;
     background-color: #000;
@@ -894,6 +895,7 @@ transform: translate(0, -50%);
     left: 0em;
     z-index: -1;
   }
+
 
  .timeline li div {
     display: inline-block;
@@ -968,6 +970,7 @@ transform: translate(0, -50%);
       border-radius: 50%;
       margin-top: 60px;
     }
+
 
 
 /* Hamburger Menu Styles with different color to page color */
