@@ -7,20 +7,13 @@
  * Licensed under the MIT license
  *
  */
-<<<<<<< HEAD
 
  *,
  *:after,
  *:before {
    box-sizing: inherit;
  }
-=======
-*,
-*:after,
-*:before {
-  box-sizing: inherit;
-}
->>>>>>> ae20792c8411872da508e3c9a2f5d24dfbe49ddc
+
 
 html {
   box-sizing: border-box;
