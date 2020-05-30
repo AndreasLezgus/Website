@@ -129,7 +129,7 @@ ul {
 
 .blockquote_body::before {
      content: "&";
-     font-size: 100vh;
+     font-size: 105vh;
      color: rgba(0, 0, 0, 0.05);
      position: absolute;
      top: -20vh;
