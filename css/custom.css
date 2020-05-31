@@ -219,8 +219,7 @@ blockquote cite {
 
 .speech {
 float: right;
-top: 135px;
-right: 20px;
+padding: 10px, 10px, 0,0;
 }
 
 
