@@ -217,6 +217,12 @@ blockquote cite {
 }
 
 
+.speech a{
+color: #000;
+float: right;
+}
+
+
 /* Header */
 .header {
   margin: 0 auto;
