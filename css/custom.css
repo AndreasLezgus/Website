@@ -223,6 +223,17 @@ margin-right: 10px;
 margin-top: 14px;
 }
 
+.speech .map{
+color: #000;
+}
+
+.speech a{
+color: #000;
+}
+
+.speech .active a{
+color: #64C8CD;
+}
 
 /* Header */
 .header {
