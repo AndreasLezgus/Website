@@ -226,13 +226,12 @@ margin-top: 14px;
 .speech ul{
   list-style-type: none;
 }
-a .fa-map-marker-alt{
+
+.speech a .fa-map-marker-alt{
 color: #FFF;
 }
 
-.speech a .active {
-color: #64C8CD;
-}
+
 
 /* Header */
 .header {
