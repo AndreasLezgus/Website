@@ -223,16 +223,16 @@ margin-right: 10px;
 margin-top: 14px;
 }
 
-.fa-map-marker-alt{
+a .fa-map-marker-alt{
 color: #000;
 }
 
-.language a{
+a .language {
 color: #000;
 padding-left:5px;
 }
 
-.language .active a{
+a .language .active {
 color: #64C8CD;
 }
 
