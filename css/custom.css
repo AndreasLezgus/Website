@@ -219,19 +219,29 @@ blockquote cite {
 
 .speech {
 float: right;
-margin-right: 10px;
-margin-top: 14px;
+margin-right: 20px;
+margin-top: 15px;
 }
 
-.speech ul{
-  list-style-type: none;
-}
-
-a .fa-map-marker-alt{
+.speech a .fa-map-marker-alt{
 color: #FFF;
+margin:0;
+padding-right:5px;
+vertical-align:baseline;
 }
 
+.speech a {
+  font-size: 1.2em;
+  line-height: 1.3em;
+  margin:0;
+  padding:0;
+}
 
+.speech a:hover {
+  font-size: 1.2em;
+  margin:0;
+  padding:0;
+}
 
 /* Header */
 .header {
