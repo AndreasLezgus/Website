@@ -227,12 +227,7 @@ a .fa-map-marker-alt{
 color: #000;
 }
 
-a .language {
-color: #000;
-padding-left:5px;
-}
-
-a .language .active {
+a .active {
 color: #64C8CD;
 }
 
