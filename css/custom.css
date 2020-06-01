@@ -76,13 +76,25 @@ h6 {
   letter-spacing: 0.1rem;
 }
 
+.h6 .grey{
+  color: #979797;
+}
+
+
 a {
   text-decoration: none;
+  color:#1BA1F3;
 }
 
 a:focus, a:hover {
-  color: #808080;
+  color: #FF0000;
 }
+
+i.bookmark{
+  color: #DC304C;
+  padding-right: 10px;
+}
+
 
 b,
 strong {
@@ -123,16 +135,8 @@ ul {
 
 /* Blockquote */
 
-.blockquote_body::before {
-     content: "&";
-     font-size: 105vh;
-     color: rgba(0, 0, 0, 0.05);
-     position: absolute;
-     top: -20vh;
-}
-
 .blockquote_body {
-   height: 100vh;
+   height: 100%;
    width: 100%;
    overflow: hidden;
    display: flex;
@@ -143,7 +147,7 @@ blockquote {
    color: rgba(250, 200, 130, 0.6);
    font-family: Tahoma, sans-serif;
    font-size: 40px;
-   width: 60%;
+   width: 100%;
    margin: 0 auto;
    padding-left:10px;
 }
@@ -232,7 +236,6 @@ vertical-align:baseline;
 
 .speech a {
   font-size: 1.2em;
-  line-height: 1.3em;
   margin:0;
   padding:0;
 }
@@ -356,6 +359,11 @@ vertical-align:baseline;
 .microphone h4{
   font-size: 1em;
   color:#000;
+}
+
+.cc{
+width: :100%;
+align-items: center;
 }
 
 .cc img{
