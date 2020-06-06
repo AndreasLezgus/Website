@@ -149,7 +149,7 @@ blockquote {
    font-size: 40px;
    width: 100%;
    margin: 0 20px 0 20px;
-   padding-left:30px;
+   padding: 10px 30px 10px 30px;
 }
 blockquote h1 {
    font-size: 4rem;
