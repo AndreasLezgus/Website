@@ -149,29 +149,14 @@ blockquote {
    font-size: 40px;
    width: 100%;
    margin: 0 auto;
-   padding: 10px 30px 10px 30px;
+   padding: 0;
 }
 blockquote h1 {
-   font-size: 3rem;
+   font-size: 2rem;
 }
 blockquote p {
    font-style: italic;
    margin-bottom: 0;
-}
-
-blockquote p::before,
-blockquote p::after {
-   content: "“";
-   font-family: Georgia;
-   font-size: 12rem;
-   margin: -5rem 0 0 -6rem;
-   position: absolute;
-   opacity: 0.5;
-}
-
-blockquote p::after {
-   content: "”";
-   margin: -1rem -4rem 0 0;
 }
 
 blockquote cite {
@@ -179,7 +164,15 @@ blockquote cite {
    color: #000;
 }
 
+.fa-angle-double-right{
+  color:grey;
+  padding-right: 10px;
+}
 
+.fa-angle-double-left{
+  color:grey;
+  padding-left: 20px;
+}
 
 /* Grid */
 .wrapper {
