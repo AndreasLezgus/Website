@@ -291,6 +291,15 @@ vertical-align:baseline;
   height:80%;
 }
 
+.tagline a{
+  color:#fff;
+  padding-right: 10px;
+}
+
+.tagline a:hover{
+  color:#fff;
+}
+
 /* Page elements */
 .landing {
   margin: 0 auto;
