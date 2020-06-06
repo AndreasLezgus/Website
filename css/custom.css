@@ -221,11 +221,21 @@ blockquote cite {
 }
 
 
-.speech {
+.nav .speech {
 float: right;
 margin-right: 20px;
 margin-top: 15px;
 }
+
+
+.nav .geschichte .speech {
+float: right;
+margin-right: 20px;
+margin-top: 15px;
+margin-top:0;
+}
+
+
 
 .speech a .fa-map-marker-alt{
 color: #FFF;
