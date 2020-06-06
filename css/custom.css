@@ -148,11 +148,11 @@ blockquote {
    font-family: Tahoma, sans-serif;
    font-size: 40px;
    width: 100%;
-   margin: 0 20px 0 20px;
+   margin: 0 auto;
    padding: 10px 30px 10px 30px;
 }
 blockquote h1 {
-   font-size: 4rem;
+   font-size: 3rem;
 }
 blockquote p {
    font-style: italic;
