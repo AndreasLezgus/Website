@@ -220,22 +220,11 @@ blockquote cite {
   padding-right: 15px;
 }
 
-
 .nav .speech {
 float: right;
 margin-right: 20px;
-margin-top: 15px;
+margin-top: 5px;
 }
-
-
-.nav .geschichte .speech {
-float: right;
-margin-right: 20px;
-margin-top: 15px;
-margin-top:0;
-}
-
-
 
 .speech a .fa-map-marker-alt{
 color: #FFF;
@@ -268,7 +257,7 @@ vertical-align:baseline;
 
 .geschichte{
   margin: 0 auto;
-  padding-top: 0px;
+  padding-top: 10px;
   padding-bottom: 20px;
   background-color: #64C8CD;
   color: #99999a;
