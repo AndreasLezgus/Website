@@ -396,10 +396,25 @@ padding-top: 20px;
   padding-top: 20px;
   margin-top: 20px;
   margin-bottom: 50px;
+  margin-top: 30px;
 }
 
-.github a{
+a .fa-github{
   color: #000;
+}
+
+a .fa-code{
+  color: #FF0000;
+  padding-right:30px;
+}
+
+a .fa-user-shield{
+  color:#FF0000;
+  padding-right:30px;
+}
+
+a .fa-check-circle{
+  color:#000;
 }
 
 .leitlinien{
@@ -409,8 +424,6 @@ padding-top: 20px;
 }
 
 .leitlinien img{
-  height: 50%;
-  width: 50%;
   padding-bottom: 20px;
   padding-top: 20px;
   align-items: center;
