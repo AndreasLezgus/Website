@@ -163,13 +163,13 @@ blockquote cite {
 }
 
 .fa-angle-double-right{
-  color:grey;
+  color:#B0B0B0;
   padding-right: 10px;
 }
 
 .fa-angle-double-left{
-  color:grey;
-  padding-left: 20px;
+  color:#B0B0B0;
+  padding-left: 10px;
 }
 
 /* Grid */
@@ -394,19 +394,11 @@ a .fa-github{
   color: #000;
 }
 
-a .fa-code{
-  color: #FF0000;
-  padding-right:30px;
-}
-
 a .fa-user-shield{
-  color:#FF0000;
+  color:#000;
   padding-right:30px;
 }
 
-a .fa-check-circle{
-  color:#000;
-}
 
 .leitlinien{
 width: :100%;
