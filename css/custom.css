@@ -370,24 +370,20 @@ vertical-align:baseline;
 .cc{
 width: :100%;
 align-items: center;
-padding-top: 20px;
+margin-top: 30px;
+margin-bottom: 20px;
 }
 
-.cc img{
-  height: 150px;
-  width: 150px;
-  padding-bottom: 30px;
-  padding-right: 20px;
-  align-items: center;
-}
 
 .github{
   width: :100%;
   align-items: center;
-  padding-top: 20px;
   margin-top: 20px;
-  margin-bottom: 50px;
-  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+a .a-creative-commons-by{
+  color: #000;
 }
 
 a .fa-github{
@@ -396,7 +392,18 @@ a .fa-github{
 
 a .fa-user-shield{
   color:#000;
-  padding-right:30px;
+}
+
+a .fa-youtube{
+  color:#FE0000;
+}
+
+a .fa-google{
+  color:#4C8CF5;
+}
+
+a .fa-aws{
+  color:#000;
 }
 
 
@@ -475,6 +482,13 @@ a .fa-instagram:hover{
   color:#C10088;
 }
 
+a .fa-creative-commons-by{
+  color: #000;
+}
+
+.footlink a .fa-github{
+  color:#808080;
+}
 
 /* Grid rows*/
 .row {
