@@ -382,16 +382,20 @@ margin-bottom: 20px;
   margin-bottom: 20px;
 }
 
-a .a-creative-commons-by{
-  color: #000;
+a .fa-creative-commons-by{
+  color: #FB7729;
 }
 
 a .fa-github{
-  color: #000;
+  color: #808080;
+}
+
+a .fa-github  .git{
+  color: #808080;
 }
 
 a .fa-user-shield{
-  color:#000;
+  color:#91D18E;
 }
 
 a .fa-youtube{
