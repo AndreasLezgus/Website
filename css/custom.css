@@ -186,6 +186,7 @@ blockquote cite {
   width: 100%;
 }
 
+
 /* Navigation */
 .nav {
   margin: 0 auto;
@@ -333,14 +334,6 @@ vertical-align:baseline;
   color: #8C8C8D;
 }
 
-.green{
-  color:#34C759;
-}
-
-.red{
-  color:#DC453F;
-}
-
 .focus{
   color:#000;
 }
@@ -374,42 +367,12 @@ margin-top: 30px;
 margin-bottom: 20px;
 }
 
-
 .github{
   width: :100%;
   align-items: center;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
-a .fa-creative-commons-by{
-  color: #FB7729;
-}
-
-a .fa-github{
-  color: #808080;
-}
-
-a .fa-github  .git{
-  color: #808080;
-}
-
-a .fa-user-shield{
-  color:#91D18E;
-}
-
-a .fa-youtube{
-  color:#FE0000;
-}
-
-a .fa-google{
-  color:#4C8CF5;
-}
-
-a .fa-aws{
-  color:#000;
-}
-
 
 .leitlinien{
 width: :100%;
@@ -420,8 +383,15 @@ padding-top: 20px;
 .leitlinien img{
   padding-bottom: 20px;
   padding-top: 20px;
+  padding left: 20px;
   align-items: center;
 }
+
+.fa-ul li{
+  list-style-type: none;
+}
+
+
 
 /* Footer */
 .footer {
@@ -776,13 +746,12 @@ button {
 .button:focus, .button:hover,
 button:focus,
 button:hover{
-  background-color: #2285B8;
-  border-color: #2285B8;
+  background-color: #000;
+  border-color: #000;
   color: #fff;
   outline: 0;
 
 }
-
 .button2:focus, .button2:hover,
 button:focus,
 button:hover{
@@ -795,8 +764,8 @@ button:hover{
 .button3:focus, .button3:hover,
 button:focus,
 button:hover{
-  background-color: #7A6AB0;
-  border-color: #7A6AB0;
+  background-color: #000;
+  border-color: #000;
   color: #fff;
   outline: 0;
 }
@@ -804,8 +773,8 @@ button:hover{
 .button4:focus, .button4:hover,
 button:focus,
 button:hover{
-  background-color: #168199;
-  border-color: #168199;
+  background-color: #000;
+  border-color: #000;
   color: #fff;
   outline: 0;
 }
