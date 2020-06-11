@@ -132,6 +132,10 @@ ul {
   padding-bottom: 5px;
 }
 
+li{
+  margin:0;
+  padding:0;
+}
 
 /* Blockquote */
 
@@ -385,6 +389,7 @@ padding-top: 20px;
   padding left: 20px;
   align-items: center;
 }
+
 
 .fa-ul li{
   list-style-type: none;
