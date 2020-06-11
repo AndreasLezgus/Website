@@ -801,6 +801,9 @@ button:hover{
   outline: 0;
 }
 
+.right{
+  float:right;
+}
 
 /* Card design */
 .card {
