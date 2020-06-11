@@ -140,17 +140,16 @@ li{
 /* Blockquote */
 
 .blockquote_body {
-   height: 100%;
-   width: 100%;
-   overflow: hidden;
-   display: flex;
    align-items: center;
+   margin-top: 20px;
+   padding-right: 60px;
+   padding-top: 20px;
 }
 
 blockquote {
    color: rgba(250, 200, 130, 0.6);
    font-family: Tahoma, sans-serif;
-   font-size: 3rem;
+   font-size: 2rem;
    width: 100%;
    margin: 0 auto;
    padding: 0;
@@ -162,7 +161,7 @@ blockquote p {
 }
 
 blockquote cite {
-   font-size: 2rem;
+   font-size: 1.5rem;
    color: #000;
 }
 
