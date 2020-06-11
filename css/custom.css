@@ -280,7 +280,7 @@ vertical-align:baseline;
 
 .tagline {
   color: #FFF;
-  padding-top:20px;
+
 }
 
 .tagline img{
@@ -296,6 +296,13 @@ vertical-align:baseline;
 .tagline a:hover{
   color:#fff;
 }
+
+.vector img{
+  width:80%;
+  height:80%;
+  margin-top: 30px;
+}
+
 
 /* Page elements */
 .landing {
