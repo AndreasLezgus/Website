@@ -384,19 +384,6 @@ margin-bottom: 20px;
   width: :100%;
   align-items: center;
   margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.leitlinien{
-width: :100%;
-padding-top: 20px;
-}
-
-.leitlinien img{
-  padding-bottom: 20px;
-  padding-top: 40px;
-  padding left: 20px;
-  align-items: center;
 }
 
 
@@ -404,7 +391,6 @@ padding-top: 20px;
   list-style-type: none;
   padding-bottom: 10px;
 }
-
 
 
 /* Footer */
