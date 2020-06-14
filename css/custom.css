@@ -280,10 +280,14 @@ vertical-align:baseline;
 
 .tagline {
   color: #FFF;
-
 }
 
-.tagline img{
+.imageline {
+  color: #FFF;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.imageline img{
   width:80%;
   height:80%;
 }
@@ -298,11 +302,6 @@ vertical-align:baseline;
 }
 
 
-.vector img{
-  width:80%;
-  height:80%;
-  padding-bottom: 20px;
-}
 
 
 /* Page elements */
@@ -456,7 +455,7 @@ text-align: center;
 
 .socialtag a{
   color: #D3D3D3;
-  padding-right: 30px;
+  padding-right: 50px;
 }
 
 
@@ -484,6 +483,7 @@ a .fa-instagram:hover{
 a .fa-creative-commons-by{
   color: #000;
 }
+
 
 .footlink a .fa-github{
   color:#808080;
@@ -535,6 +535,15 @@ a .fa-creative-commons-by{
   margin-left: 0;
   max-width: 100%;
   width: 100%;
+}
+
+.row .column .center{
+  display: block;
+  flex: 1 1 auto;
+  margin-left: 0;
+  max-width: 100%;
+  width: 100%;
+  text-align: center;
 }
 
 .row .column.column-offset-10 {
