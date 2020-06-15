@@ -286,6 +286,7 @@ vertical-align:baseline;
   color: #FFF;
   text-align: center;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 .imageline img{
   width:100%;
@@ -296,7 +297,7 @@ vertical-align:baseline;
   color: #FFF;
   text-align: center;
   margin-bottom: 20px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .reduce img{
@@ -493,10 +494,13 @@ a .fa-instagram:hover{
   color:#C10088;
 }
 
+a .fa-youtube:hover{
+  color: #FE0000;
+}
+
 a .fa-creative-commons-by{
   color: #000;
 }
-
 
 .footlink a .fa-github{
   color:#808080;
