@@ -300,8 +300,9 @@ vertical-align:baseline;
 }
 
 .reduce img{
-  width:70%;
-  height:70%;
+  width:80%;
+  height:80%;
+  text-align: center;
 }
 
 .tagline a{
