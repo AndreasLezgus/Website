@@ -286,7 +286,9 @@ vertical-align:baseline;
 
 .tagline {
   color: #FFF;
+  font-weight: 700;
 }
+
 
 .imageheader {
   color: #FFF;
@@ -481,12 +483,12 @@ margin-bottom: 20px;
   margin-top:40px;
   margin-bottom: 80px;
   padding: 0;
-text-align: center;
+  text-align: center;
 }
 
 .socialtag a{
   color: #D3D3D3;
-  padding-right: 30px;
+  padding-right: 20px;
 }
 
 
@@ -818,8 +820,8 @@ button:hover{
   border-color: #000;
   color: #fff;
   outline: 0;
-
 }
+
 .button2:focus, .button2:hover,
 button:focus,
 button:hover{
@@ -1361,19 +1363,6 @@ label a:hover {
 .menu a{
   font-weight: 300;
 }
-
-.portfolio a{
-  font-weight: 300;
-}
-
-.geschichte a{
-  font-weight: 300;
-}
-
-.transparenz a{
-  font-weight: 300;
-}
-
 
 
 /* Clearing */
