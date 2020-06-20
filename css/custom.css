@@ -682,8 +682,7 @@ a .fa-creative-commons-by{
 }
 
 .row .column .column-center {
-  -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
 }
 
 @media (min-width: 42rem) {
@@ -704,7 +703,6 @@ a .fa-creative-commons-by{
 .button,
 button {
   background-color: #063F60;
-  border: 0.1rem solid #063F60;
   border-radius: .4rem;
   color: #fff;
   cursor: pointer;
@@ -727,7 +725,6 @@ button {
 .button2 ,
 button {
   background-color: #DD304C;
-  border: 0.1rem solid #DD304C;
   border-radius: .4rem;
   color: #fff;
   cursor: pointer;
@@ -749,7 +746,6 @@ button {
 .button3 ,
 button {
   background-color: #5F479D;
-  border: 0.1rem solid #5F479D;
   border-radius: .4rem;
   color: #fff;
   cursor: pointer;
@@ -771,7 +767,6 @@ button {
 .button4 ,
 button {
   background-color: #053440;
-  border: 0.1rem solid #053440;
   border-radius: .4rem;
   color: #fff;
   cursor: pointer;
@@ -793,7 +788,6 @@ button {
 .button5 ,
 button {
   background-color: #FFF;
-  border: 0.1rem solid #FFF;
   border-radius: .4rem;
   color: #000;
   cursor: pointer;
