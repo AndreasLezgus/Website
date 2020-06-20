@@ -404,14 +404,14 @@ vertical-align:baseline;
 }
 
 .cc{
-width: :100%;
-align-items: center;
-margin-top: 30px;
-margin-bottom: 20px;
+  width:100%;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .github{
-  width: :100%;
+  width:100%;
   align-items: center;
   margin-top: 20px;
 }
@@ -1189,7 +1189,7 @@ label .menu {
   border-radius: 10% 10% 10% 10%;
   -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
-  box-shadow: 0 0 0 0 #59BEDC, 0 0 0 0 #59BEDC#;
+  box-shadow: 0 0 0 0 #59BEDC, 0 0 0 0 #59BEDC;
   cursor: pointer;
 }
 
