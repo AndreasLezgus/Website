@@ -76,7 +76,7 @@ h6 {
   letter-spacing: 0.1rem;
 }
 
-.h6 .grey{
+h6 .grey{
   color: #979797;
 }
 
@@ -84,6 +84,11 @@ h6 {
 a {
   text-decoration: none;
   color:#1BA1F3;
+  font-weight: bold;
+}
+
+h6 a{
+  font-weight: 300;
 }
 
 a:focus, a:hover {
@@ -233,6 +238,7 @@ vertical-align:baseline;
   font-size: 1.2em;
   margin:0;
   padding:0;
+  font-weight: 300;
 }
 
 .speech a:hover {
@@ -432,6 +438,7 @@ margin-bottom: 20px;
 .footlink a{
   color: #808080;
   font-size: 0.8em;
+  font-weight: 300;
 }
 
 .footlink p{
@@ -466,6 +473,7 @@ margin-bottom: 20px;
   list-style-type: none;
   margin:0;
   padding:0;
+
 }
 
 .socialtag {
@@ -1341,7 +1349,6 @@ label li {
 label a {
   font-size: 2.2rem;
   color: #FFF;
-
 }
 
 label a:hover {
@@ -1351,6 +1358,21 @@ label a:hover {
 
 }
 
+.menu a{
+  font-weight: 300;
+}
+
+.portfolio a{
+  font-weight: 300;
+}
+
+.geschichte a{
+  font-weight: 300;
+}
+
+.transparenz a{
+  font-weight: 300;
+}
 
 
 
