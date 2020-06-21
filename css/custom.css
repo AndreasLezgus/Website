@@ -100,6 +100,9 @@ i.bookmark{
   padding-right: 10px;
 }
 
+i.faq{
+  padding-right: 10px;
+}
 
 b,
 strong {
@@ -392,19 +395,6 @@ vertical-align:baseline;
   color: #808080;
 }
 
-.microphone li{
-  list-style:circle;
-  color: #000;
-}
-
-.microphone h3{
-  font-size: 1em;
-  color: #808080;
-}
-.microphone h4{
-  font-size: 1em;
-  color:#000;
-}
 
 .cc{
   width:100%;
@@ -425,6 +415,16 @@ vertical-align:baseline;
   padding-bottom: 10px;
 }
 
+.faq{
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+.faq li{
+  list-style-type: circle;
+  padding-bottom: 5px;
+  padding-left: 0px;
+}
 
 /* Footer */
 .footer {
