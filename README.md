@@ -10,8 +10,8 @@ Diese Dokumentation und der Programm-Code wurde von mir eigenständig erstellt u
 
 
 ## Wer bin ich?
-Andreas Lezgus, CTO des Bundeskriminalamtes
-
+Andreas Lezgus, https://www.lezgus.de
+CTO des Bundeskriminalamtes
 
 ## Was ist das Ziel diese Projektes?
 Diese Website und der Programm-Code wurde von mir eigenständig erstellt. Mein altes Entwickler-Herz versucht immer wieder zu verstehen, wie etwas funktioniert. Ausprobieren, Fehler machen, lernen und verzweifelt nach dem Schreibfehler im Code suchen. Der Bauplan und Source Code dieser Seiten kann von allen kopiert, überprüft, modifiziert und verbessert werden.
