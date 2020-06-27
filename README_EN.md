@@ -11,7 +11,6 @@ This documentation and the program code was created by myself and is used as my 
 
 ## Who am I?
 Andreas Lezgus, https://www.lezgus.de
-CTO of the federal criminal police office, germany
 
 
 ## What is the goal of this project?
