@@ -36,18 +36,15 @@ All ideas and improvements of the code are welcome. For the following things I s
 
 
 ## Privacy and information security:
-
 Information about the privacy policy of my portfolio website can be found here:
 http://www.lezgus.de/transparenz.html
 
 
 ## Copyrights:
-
 The contents and works published by me here are generally subject to German copyright law. In order to provide a simple possibility for open access and the reproduction, editing and distribution of the content I use the license regulations of the non-profit organization Creative Commons. Therefore, the license terms of CC-BY (free redistribution if the author is named) apply to the content created by me on these pages. For further information please see this short <a href='https://creativecommons.org/licenses/by/4.0/deed.de'>summary</a>. As far as the content on this site was not created by me, the copyrights of third parties are respected. Especially contents of third parties are marked as such. Should you nevertheless become aware of a copyright infringement, please inform us accordingly. If I become aware of any infringements, I will remove such contents immediately. Please write to me for this purpose: <a href=mailto:info@lezgus.de>info@lezgus.de</a>
 
 
-## [ Continues ] Thank you:
-
+## Contributions and thanks:
 This webiste uses the following frameworks, code modules, graphics and symbols.
 I would like to thank all authors for their work, publications and support.
 

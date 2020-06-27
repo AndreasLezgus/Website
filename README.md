@@ -36,18 +36,15 @@ Alle Ideen und Verbesserungen des Codes sind herzlich willkommen. Bei folgenden 
 
 
 ## Datenschutz und Informationssicherheit:
-
 Informationen zum Datenschutz meiner Portfolio Website sind zu finden unter:
 http://www.lezgus.de/transparenz.html
 
 
 ## Urheberrechte:
-
 Die von mir hier veröffentlichten Inhalte und Werke unterliegen grundsätzlich dem deutschen Urheberrecht. Um eine einfache Möglichkeit einzuräumen für den offenen Zugang und der Vervielfältigung, Bearbeitung und Verbreitung der Inhalte verwende ich die Lizenzregelungen der Non-Profit-Organisation Creative Commons. Für die durch mich auf diesen Seiten erstellten Inhalte gelten daher die Lizenzbedingungen des CC-BY (Freie Weiterverbreitung bei Nennung des Autors). Weitere Informationen hierzu finden Sie in dieser kurzen <a href='https://creativecommons.org/licenses/by/4.0/deed.de'>Zusammenfassung</a>. Soweit die Inhalte auf dieser Seite nicht von mir erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werde ich derartige Inhalte umgehend entfernen. Bitte schreiben Sie mir hierzu unter: <a href=mailto:info@lezgus.de>info@lezgus.de</a>
 
 
 ## Danksagungen:
-
 Diese Webiste verwendet folgende Frameworks, Code-Bausteine, Grafiken und Symbole.
 Alle Autoren danke ich herzlich für Ihre Arbeit, Veröffentlichungen und Unterstützung.
 
