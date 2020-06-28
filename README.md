@@ -13,8 +13,6 @@ Diese Dokumentation und der Programm-Code wurde von mir eigenständig erstellt u
 Andreas Lezgus, https://www.lezgus.de
 
 ## Was ist das Ziel diese Projektes?
-Diese Website und der Programm-Code wurde von mir eigenständig erstellt. Mein altes Entwickler-Herz versucht immer wieder zu verstehen, wie etwas funktioniert. Ausprobieren, Fehler machen, lernen und verzweifelt nach dem Schreibfehler im Code suchen. Der Bauplan und Source Code dieser Seiten kann von allen kopiert, überprüft, modifiziert und verbessert werden.
-
 Idee des Projektes war es, zurück zu den Wurzeln zu gehen.
 Einfaches statisches HTML und CSS. Keine Scripting Sprache. Keine Datenbank.
 Publizierung auf kostengünstigem Amazon Web Services S3 Speicher mit einfachen CI/CD Werkzeugen zum Testen, Versionieren und Veröffentlichen.

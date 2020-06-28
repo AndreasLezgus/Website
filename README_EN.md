@@ -14,8 +14,6 @@ Andreas Lezgus, https://www.lezgus.de
 
 
 ## What is the goal of this project?
-This website and the program code was created by myself. My old developer heart is always trying to understand how something works. Trying, making mistakes, learning and desperately searching for the typo in the code. The blueprint and source code of these pages can be copied, checked, modified and improved by everyone.
-
 The idea of the project was to go back to the roots.
 Simple static HTML and CSS. No scripting language. No database.
 Publishing on inexpensiv Amazon Web Services S3 storage and simple CI/CD practices to test, versioning and publishing.
