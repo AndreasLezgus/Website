@@ -28,14 +28,14 @@ http://www.lezgus.de/transparenz.html
 
 
 ## Urheberrechte
-Die von mir hier veröffentlichten Inhalte und Werke unterliegen grundsätzlich dem deutschen Urheberrecht. Um eine einfache Möglichkeit einzuräumen für den offenen Zugang und der Vervielfältigung, Bearbeitung und Verbreitung der Inhalte verwende ich die Lizenzregelungen der Non-Profit-Organisation <b>Creative Commons</b>. Für die durch mich auf diesen Seiten erstellten Inhalte gelten daher die Lizenzbedingungen des CC-BY (Freie Weiterverbreitung bei Nennung des Autors). Weitere Informationen hierzu findet man in dieser kurzen <a href='https://creativecommons.org/licenses/by/4.0/deed.de'>Zusammenfassung</a>. Soweit die Inhalte auf dieser Seite nicht von mir erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollte trotzdem eine Urheberrechtsverletzung auftreten oder keine richtige Kennzeichnung erfolgen, bitte ich um einen entsprechenden Hinweis. Bei Bekanntwerden von möglicherweise Rechtsverletzungen werde ich derartige Inhalte umgehend entfernen. Bitte kurze Information senden an: <a href=mailto:info@lezgus.de>info@lezgus.de</a>.
+Um eine einfache Möglichkeit einzuräumen für den offenen Zugang und der Vervielfältigung, Bearbeitung und Verbreitung der Inhalte und des Codes verwende ich die Lizenzregelungen der Non-Profit-Organisation <b>Creative Commons</b>. Für die durch mich auf diesen Seiten erstellten Inhalte gelten daher die Lizenzbedingungen des CC-BY (Freie Weiterverbreitung bei Nennung des Autors). Weitere Informationen hierzu findet man in dieser kurzen <a href='https://creativecommons.org/licenses/by/4.0/deed.de'>Zusammenfassung</a>. Soweit die Inhalte auf dieser Seite nicht von mir erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollte trotzdem eine Urheberrechtsverletzung auftreten oder keine richtige Kennzeichnung erfolgen, bitte ich um einen entsprechenden Hinweis. Bei Bekanntwerden von möglicherweise Rechtsverletzungen werde ich derartige Inhalte umgehend entfernen. Bitte eine kurze Information senden an: <a href=mailto:info@lezgus.de>info@lezgus.de</a>.
 
 
 ## Danksagungen
 Diese Webiste verwendet folgende Frameworks, Code-Bausteine, Grafiken und Symbole.
 Allen Autoren danke ich ganz herzlich für Ihre Arbeit, Veröffentlichungen und Unterstützung.
 
-Minimmalistic CSS framework von milligram
+Minimalistic CSS framework von milligram
 https://milligram.io/
 
 CSS resets for browsers von normalize

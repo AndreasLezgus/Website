@@ -29,14 +29,14 @@ http://www.lezgus.de/transparency.html
 
 
 ## Copyrights
-The contents and works published by me here are generally subject to German copyright law. In order to provide a simple possibility for open access and the reproduction, editing and distribution of the content I use the license regulations of the non-profit organization <b>Creative Commons</b>. Therefore, the license terms of CC-BY (free redistribution if the author is named) apply to the content created by me on these pages. For further information please see this short <a href='https://creativecommons.org/licenses/by/4.0/deed.de'>summary</a>. As far as the contents on this site were not created by me, the copyrights of third parties are respected. In particular, third-party content is identified as such. If a copyright infringement should nevertheless occur or no correct identification should be made, I ask for an appropriate reference. If I become aware of any infringements, I will remove such contents immediately. Please send short information to: <a href=mailto:info@lezgus.de>info@lezgus.de</a>.
+In order to provide a simple possibility for open access and the reproduction, editing and distribution of the content and source code I use the license regulations of the non-profit organization <b>Creative Commons</b>. Therefore, the license terms of CC-BY (free redistribution if the author is named) apply to the content created by me on these pages. For further information please see this short <a href='https://creativecommons.org/licenses/by/4.0/deed.en'>summary</a>. As far as the contents on this site were not created by me, the copyrights of third parties are respected. In particular, third-party content is identified as such. If a copyright infringement should nevertheless occur or no correct identification should be made, I ask for an appropriate reference. If I become aware of any infringements, I will remove such contents immediately. Please send a short information to: <a href=mailto:info@lezgus.de>info@lezgus.de</a>.
 
 
 ## Contributions and thanks
 This webiste uses the following frameworks, code modules, graphics and symbols.
 I would like to thank all authors for their work, publications and support.
 
-Minimmalistic CSS framework from milligramm
+Minimalistic CSS framework from milligramm
 https://milligram.io/
 
 CSS resets for browsers from normalize
