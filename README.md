@@ -1,9 +1,10 @@
 # Persönliche Website von Andreas Lezgus
 Portfolio: https://www.lezgus.de
 
+NOTE: This README is also available in <a href=https://github.com/AndreasLezgus/Website/blob/master/README_EN.md>English</a>. Thank you for understanding that the English version might not always be up-to-date with the German one.
+
 Dieses Dokument richtet sich an ein technisches Publikum und stellt den neuesten Stand der Architektur und des Programmcodes meiner Website dar, der möglicherweise noch nicht endgültig ist. Ich freue mich ständig über Hinweise auf Verbesserungen und Ideen, wie die Seiten optimiert werden können.
 
-NOTE: This README is also available in <a href=https://github.com/AndreasLezgus/Website/blob/master/README_EN.md>English</a>. Thank you for understanding that the English version might not always be up-to-date with the German one.
 
 ## Über dieses Projekt
 Diese Dokumentation und der Programm-Code wurde von mir eigenständig erstellt und wird als meine persönliche Portfolio Website verwendet. Mein altes Entwickler-Herz versucht immer wieder zu verstehen, wie etwas funktioniert. Ausprobieren, Fehler machen, lernen und verzweifelt nach dem Schreibfehler im Code suchen. Der Bauplan und Source Code dieser Seiten kann von allen kopiert, überprüft, modifiziert und verbessert werden.

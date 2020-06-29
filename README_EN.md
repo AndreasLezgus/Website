@@ -1,9 +1,10 @@
 # Personal website of Andreas Lezgus
 Portfolio: https://www.lezgus.de
 
+NOTE: This README is also available in <a href=https://github.com/AndreasLezgus/Website/blob/master/README.md>German</a>.
+
 This document is intended for a technical audience and represents the latest state of architecture and code of my website, which may not yet be final. I'm always happy to hear about improvements and ideas on how to optimize the pages.
 
-NOTE: This README is also available in <a href=https://github.com/AndreasLezgus/Website/blob/master/README.md>German</a>.
 
 ## About this project?
 This documentation and the program code was created by myself and is used as my personal portfolio website. My old developer heart always tries to understand how something works. Trying, making mistakes, learning and desperately searching for the typo in the code. The blueprint and source code of these pages can be copied, checked, modified and improved by everyone.
