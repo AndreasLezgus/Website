@@ -8,11 +8,11 @@
  *
  */
 
- *,
- *:after,
- *:before {
-   box-sizing: inherit;
- }
+*,
+*:after,
+*:before {
+ box-sizing: inherit;
+}
 
 html {
   box-sizing: border-box;
@@ -28,7 +28,6 @@ body {
 }
 
 /* Base Styles */
-
 h1,
 h2,
 h3,
@@ -79,7 +78,6 @@ h6 .grey{
   color: #979797;
 }
 
-
 a {
   text-decoration: none;
   color:#1BA1F3;
@@ -127,7 +125,6 @@ code {
   white-space: nowrap;
 }
 
-
 fieldset {
   border-width: 0;
   padding: 0;
@@ -145,7 +142,6 @@ li{
 }
 
 /* Blockquote */
-
 .blockquote_body {
    align-items: center;
    margin-top: 20px;
@@ -196,7 +192,6 @@ blockquote cite {
   position: relative;
   width: 100%;
 }
-
 
 /* Navigation */
 .nav {
@@ -291,7 +286,6 @@ vertical-align:baseline;
   font-weight: 700;
 }
 
-
 .imageheader {
   color: #FFF;
   text-align: center;
@@ -336,9 +330,6 @@ vertical-align:baseline;
 .tagline a:hover{
   color:#fff;
 }
-
-
-
 
 /* Page elements */
 .landing {
@@ -407,7 +398,6 @@ vertical-align:baseline;
   align-items: center;
   margin-top: 20px;
 }
-
 
 .fa-ul li{
   list-style-type: none;
@@ -492,8 +482,6 @@ vertical-align:baseline;
   color: #D3D3D3;
   padding-right: 20px;
 }
-
-
 
 a .fa-twitter:hover{
   color:#1BA1F3;
@@ -700,7 +688,6 @@ a .fa-creative-commons-by{
 
 }
 
-
 /* Buttons */
 .button,
 button {
@@ -849,7 +836,6 @@ button:hover{
   outline: 0;
 }
 
-
 /* Card design */
 .card {
   background-color: #FFF;
@@ -904,7 +890,6 @@ button:hover{
   color: #063F60;
 }
 
-
 .primary-text {
     font-size: 24px;
     font-weight: 500;
@@ -950,7 +935,6 @@ button:hover{
     padding-top: 10px;
 }
 
-
 .action-button {
     background-color: transparent;
     color:#000;
@@ -986,7 +970,6 @@ button:hover{
   color:#000;
   font-weight: 400;
 }
-
 
 /* Card: thumbnail*/
 .thumbnail {
@@ -1069,9 +1052,6 @@ transform: translate(0, -50%);
   overflow: hidden;
 }
 
-
-
-
 /* Timeline */
 .timeline {
   padding: 1em 0 0 0;
@@ -1097,7 +1077,6 @@ transform: translate(0, -50%);
     left: 0em;
     z-index: -1;
   }
-
 
  .timeline li div {
     display: inline-block;
@@ -1173,8 +1152,6 @@ transform: translate(0, -50%);
       margin-top: 60px;
     }
 
-
-
 /* Hamburger Menu Styles with different color to page color */
 /* Landing page*/
 label .menu {
@@ -1243,7 +1220,6 @@ label .hamburger {
   transition: .5s ease-in-out;
 }
 
-
 label .hamburger:after, label .hamburger:before {
   -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
@@ -1286,12 +1262,10 @@ label input:checked + .transparenz{
   border-radius: 0;
 }
 
-
 label input:checked + .hamburger {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-
 
 label input:checked + .hamburger:after {
   -webkit-transform: rotate(90deg);
@@ -1305,7 +1279,6 @@ label input:checked + .hamburger:before {
   top: 0;
 }
 
-
 label input:checked + .menu + ul { opacity: 1; }
 
 label input:checked + .geschichte + ul { opacity: 1; }
@@ -1313,8 +1286,6 @@ label input:checked + .geschichte + ul { opacity: 1; }
 label input:checked + .portfolio + ul { opacity: 1; }
 
 label input:checked + .transparenz + ul { opacity: 1; }
-
-
 
 label ul {
   list-style-type: none;
@@ -1354,7 +1325,6 @@ label a:hover {
 .menu a{
   font-weight: 300;
 }
-
 
 /* Clearing */
 
