@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
 <url>
 <loc>https://www.lezgus.de/</loc>
 </url>
@@ -13,5 +12,16 @@
 <url>
 <loc>https://www.lezgus.de/transparenz.html</loc>
 </url>
-
+<url>
+<loc>https://www.lezgus.de/start.html</loc>
+</url>
+<url>
+<loc>https://www.lezgus.de/story.html</loc>
+</url>
+<url>
+<loc>https://www.lezgus.de/work.html</loc>
+</url>
+<url>
+<loc>https://www.lezgus.de/transparency.html</loc>
+</url>
 </urlset>
