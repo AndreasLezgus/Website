@@ -5,9 +5,37 @@
  *
  */
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,300');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
-@import url('https://use.fontawesome.com/releases/v5.3.1/css/all.css' integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous");
+ /* Google fonts */
+ /* open-sans-300 - latin */
+ @font-face {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 300;
+   font-display: swap;
+   src: local('Open Sans Light'), local('OpenSans-Light'),
+        url('../webfonts/open-sans-v17-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../webfonts/open-sans-v17-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+ }
+ /* open-sans-regular - latin */
+ @font-face {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-display: swap;
+   src: local('Open Sans Regular'), local('OpenSans-Regular'),
+        url('../webfonts/open-sans-v17-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../webfonts/open-sans-v17-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+ }
+ /* open-sans-600 - latin */
+ @font-face {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 600;
+   font-display: swap;
+   src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'),
+        url('../webfonts/open-sans-v17-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../webfonts/open-sans-v17-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+ }
 
 /* Base Styles */
 *,
