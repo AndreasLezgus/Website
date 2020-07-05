@@ -24,6 +24,12 @@ Updating the pages with a simple text editor platform independent from any devic
 Interactive content, such as my blog, is merely linked to the respective platform by references.
 
 
+## Technical Architecture and processes
+My website is hosted on a secure Amazon Web Service S3 storage space. The static HTML pages there are read-only and not publicly accessible. The distribution and publication is done via a worldwide distributed content delivery network with Amazon CloudFront using a HTTPS protocol. The Amazon Lambda@Edge services provide user-friendly redirections of short terms as well as automatic detection of the browser language settings and redirections to the respective language version of my web pages.
+
+The publishing and modification processes are done via a git client (I use Atom https://atom.io/ on the Mac and WorkingCopy https://workingcopyapp.com/ on iOS) to this github repository. Every change to this github repository automatically updates the website on Amazon S3 storage via Amazon CodePipeline and redistributes the pages via Amazon CloudFront.
+
+
 ## Privacy and information security
 Information about the privacy policy of my portfolio website can be found here:
 http://www.lezgus.de/transparency.html

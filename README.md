@@ -13,6 +13,7 @@ Diese Dokumentation und der Programm-Code wurde von mir eigenständig erstellt u
 ## Wer bin ich?
 Andreas Lezgus, https://www.lezgus.de/geschichte.html
 
+
 ## Was ist das Ziel diese Projektes?
 Diese Portfolio-Seiten sind in der regel statisch und die Änderungshäufigkeit ist überschaubar gering. Idee des Projektes war es daher, zurück zu den Wurzeln zu gehen.
 Einfaches statisches HTML und CSS. Keine Scripting Sprache. Keine Datenbank.
@@ -21,6 +22,12 @@ Einsatz eines weltweit verteilten Content Delivery Network (CDN).
 Aktualisieren der Seiten mit einem einfachen Texteditor plattformunahängig von jedem Endgerät. Mal sehen, wie weit ich mit diesen einfachen Werkzeugen komme?
 
 Interaktive Inhalte, wie z.B. mein Blog werden durch Verweise auf die jeweilige Plattform lediglich verlinkt.
+
+
+## Technische Architektur und Prozesse
+Meine Website wird auf einem sicheren Amazon Web Service S3 Speicherplatz betrieben. Die statischen HTML-Seiten sind dort schreibgeschützt und nicht öffentlich zugänglich. Die Verteilung und Publikation erfolgt über ein weltweit verteiltes Content Delivery Netzwerk mit Amazon CloudFront über ein HTTPS-Protokoll. Über die Amazon Lambda@Edge Services erfolgen benutzerfreundliche Umleitungen von Kurzbegriffen sowie die automatische Erkennung der Spracheinstellungen des Browsers und Umleitungen auf die jeweilige Sprachversion meiner Webseiten.
+
+Die Veröffentlichungs- und Änderungsprozesse erfolgen über einen Git-Client (ich verwende Atom https://atom.io/ auf dem Mac und WorkingCopy https://workingcopyapp.com/ auf iOS) auf dieses Github Repository. Bei jeder Veränderung dieses Github Repository erfolgt automatisch über Amazon CodePipeline eine Aktualisierung der Website auf dem Amazon S3 Speicher und eine Neuverteilung der Seiten über Amazon CloudFront.
 
 
 ## Datenschutz und Informationssicherheit
