@@ -27,11 +27,39 @@
 .fa-sm {
   font-size: .875em; }
 
+.fa-1x {
+  font-size: 1em; }
+
+.fa-2x {
+  font-size: 2em; }
+
+.fa-3x {
+  font-size: 3em; }
+
 .fa-4x {
   font-size: 4em; }
 
 .fa-5x {
   font-size: 5em; }
+
+.fa-6x {
+  font-size: 6em; }
+
+.fa-7x {
+  font-size: 7em; }
+
+.fa-8x {
+  font-size: 8em; }
+
+.fa-9x {
+  font-size: 9em; }
+
+.fa-10x {
+  font-size: 10em; }
+
+.fa-fw {
+  text-align: center;
+  width: 1.25em; }
 
 .fa-ul {
   list-style-type: none;
@@ -52,5 +80,159 @@
   border-radius: .1em;
   padding: .2em .25em .15em; }
 
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+readers do not read off random characters that represent icons */
+
+.fa-th-large:before {
+  content: "\f009"; }
+
+.fa-database:before {
+  content: "\f1c0"; }
+
+.fa-check-circle:before {
+  content: "\f058"; }
+
+.fa-book:before {
+  content: "\f02d"; }
+
+.fa-book-reader:before {
+  content: "\f5da"; }
+
+.fa-suitcase-rolling:before {
+  content: "\f5c1"; }
+
+.fa-bullseye:before {
+  content: "\f140"; }
+
+.fa-headphones:before {
+  content: "\f025"; }
+
+.fa-map-marker-alt:before {
+  content: "\f3c5"; }
+
+.fa-twitter:before {
+  content: "\f099"; }
+
+.fa-linkedin:before {
+  content: "\f08c"; }
+
+.fa-facebook:before {
+  content: "\f09a"; }
+
+.fa-instagram:before {
+  content: "\f16d"; }
+
+.fa-github:before {
+  content: "\f09b"; }
+
+.fa-youtube-square:before {
+  content: "\f431"; }
+
+.fa-angle-right:before {
+  content: "\f105"; }
+
+.fa-angle-left:before {
+  content: "\f104"; }
+
+.fa-youtube:before {
+  content: "\f167"; }
+
+.fa-youtube-square:before {
+  content: "\f431"; }
+
+.fa-wine-glass-alt:before {
+  content: "\f5ce"; }
+
+.fa-shoe-prints:before {
+  content: "\f54b"; }
+
+.fa-podcast:before {
+  content: "\f2ce"; }
+
+.fa-audible:before {
+  content: "\f373"; }
+
+.fa-app-store:before {
+  content: "\f36f"; }
+
+.fa-apple:before {
+  content: "\f179"; }
+
+.fa-comments:before {
+  content: "\f086"; }
+
+.fa-graduation-cap:before {
+  content: "\f19d"; }
+
+.fa-camera:before {
+  content: "\f030"; }
+
+.fa-bookmark:before {
+  content: "\f02e"; }
+
+.fa-th-large:before {
+  content: "\f009"; }
+
 .fa-address-card:before {
   content: "\f2bb"; }
+
+.fa-volume-up:before {
+  content: "\f028"; }
+
+.fa-microsoft:before {
+  content: "\f3ca"; }
+
+.fa-users:before {
+  content: "\f0c0"; }
+
+.fa-user-shield:before {
+  content: "\f505"; }
+
+.fa-lock:before {
+  content: "\f023"; }
+
+.fa-github:before {
+  content: "\f09b"; }
+
+.fa-hashtag:before {
+  content: "\f292"; }
+
+.fa-check-circle:before {
+  content: "\f058"; }
+
+.fa-heart:before {
+  content: "\f004"; }
+
+.fa-mobile-alt:before {
+  content: "\f3cd"; }
+
+.fa-cloud:before {
+  content: "\f0c2"; }
+
+.fa-globe:before {
+  content: "\f0ac"; }
+
+.fa-html5:before {
+  content: "\f13b"; }
+
+.fa-js:before {
+  content: "\f3b8"; }
+
+.fa-code:before {
+  content: "\f121"; }
+
+.fa-google:before {
+  content: "\f1a0"; }
+
+.fa-creative-commons-by:before {
+  content: "\f4e7"; }
+
+.fa-user-shield:before {
+  content: "\f505"; }
+
+.fa-aws:before {
+  content: "\f375"; }
+
+.fa-youtube:before {
+  content: "\f167"; }
