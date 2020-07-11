@@ -15,7 +15,7 @@ Andreas Lezgus, https://www.lezgus.de/geschichte.html
 
 
 ## Was ist das Ziel diese Projektes?
-Diese Portfolio-Seiten sind in der regel statisch und die Änderungshäufigkeit ist überschaubar gering. Idee des Projektes war es daher, zurück zu den Wurzeln zu gehen.
+Diese Portfolio-Seiten sind in der Regel statisch und die Änderungshäufigkeit ist überschaubar gering. Idee des Projektes war es daher, zurück zu den Wurzeln zu gehen.
 Einfaches statisches HTML und CSS. Keine Scripting Sprache. Keine Datenbank.
 Publizierung auf kostengünstigem Amazon Web Services S3 Speicher mit einfachen CI/CD Werkzeugen zum Testen, Versionieren und Veröffentlichen.
 Einsatz eines weltweit verteilten Content Delivery Network (CDN).
