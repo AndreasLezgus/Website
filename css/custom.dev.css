@@ -203,13 +203,14 @@ margin-top: 5px;
 color: #FFF;
 margin:0;
 padding-right:10px;
+padding-left:10px;
 vertical-align:baseline;
 }
 
 .speech a {
   font-size: 1.2em;
   margin:0;
-  padding:0;
+  padding-left:10px;
   font-weight: 300;
 }
 
