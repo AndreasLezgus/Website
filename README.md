@@ -3,7 +3,7 @@ Portfolio: https://www.lezgus.de
 
 NOTE: This README is also available in <a href=https://github.com/AndreasLezgus/Website/blob/master/README_EN.md>English</a>.
 
-Dieses Dokument richtet sich an ein technisches Publikum und stellt den neuesten Stand der Architektur und des Programmcodes meiner Website dar, der möglicherweise noch nicht endgültig ist. Ich freue mich ständig über Hinweise auf Verbesserungen und Ideen, wie die Seiten optimiert werden können.
+Dieses Dokument richtet sich an ein technisches Publikum und stellt den Programmcode und verwendeten Komponenten meiner persönlichem Website dar. Ich freue mich ständig über Hinweise auf Verbesserungen und Ideen, wie die Seiten optimiert werden können.
 
 
 ## Über dieses Projekt
@@ -15,19 +15,16 @@ Andreas Lezgus, https://www.lezgus.de/geschichte.html
 
 
 ## Was ist das Ziel diese Projektes?
-Diese Portfolio-Seiten sind in der Regel statisch und die Änderungshäufigkeit ist überschaubar gering. Idee des Projektes war es daher, zurück zu den Wurzeln zu gehen.
-Einfaches statisches HTML und CSS. Keine Scripting Sprache. Keine Datenbank.
-Publizierung auf kostengünstigem Amazon Web Services S3 Speicher mit einfachen CI/CD Werkzeugen zum Testen, Versionieren und Veröffentlichen.
-Einsatz eines weltweit verteilten Content Delivery Network (CDN).
-Aktualisieren der Seiten mit einem einfachen Texteditor plattformunahängig von jedem Endgerät. Mal sehen, wie weit ich mit diesen einfachen Werkzeugen komme?
+Diese Portfolio-Seiten sind in der Regel statisch und die Änderungshäufigkeit ist überschaubar gering. Idee des Projektes war es daher, zurück zu den Wurzeln zu gehen. Einfaches statisches HTML und CSS. Keine Scripting Sprache. Keine Datenbank.
+Publizierung auf kostengünstigem Amazon Web Services S3 Speicher mit einfachen CI/CD Werkzeugen zum Testen, Versionieren und Veröffentlichen. Einsatz eines weltweit verteilten Content Delivery Network (CDN). Aktualisieren der Seiten mit einem einfachen Texteditor plattformunahängig von jedem Endgerät. Mal sehen, wie weit ich mit diesen einfachen Werkzeugen komme.
 
-Interaktive Inhalte, wie z.B. mein Blog werden durch Verweise auf die jeweilige Plattform lediglich verlinkt.
+Interaktive Inhalte, wie z.B. meine Social Media Kanäle werden durch Verweise auf die jeweilige Plattform lediglich verlinkt. Eine englische Sprachversion wird über entsprechende Symbole manuell angeboten und nicht automatisch umgestellt.
 
 
 ## Technische Architektur und Prozesse
-Meine Website wird auf einem sicheren Amazon Web Service S3 Speicherplatz betrieben. Die statischen HTML-Seiten sind dort schreibgeschützt und nicht öffentlich zugänglich. Die Verteilung und Publikation erfolgt über ein weltweit verteiltes Content Delivery Netzwerk mit Amazon CloudFront über ein HTTPS-Protokoll. Über die Amazon Lambda@Edge Services erfolgen benutzerfreundliche Umleitungen von Kurzbegriffen sowie die automatische Erkennung der Spracheinstellungen des Browsers und Umleitungen auf die jeweilige Sprachversion meiner Webseiten.
+Meine Website wird auf einem sicheren Amazon Web Service S3 Speicherplatz betrieben. Die statischen HTML-Seiten sind dort schreibgeschützt und nicht öffentlich zugänglich. Die Verteilung und Publikation erfolgt über ein weltweit verteiltes Content Delivery Netzwerk mit Amazon CloudFront über ein HTTPS-Protokoll. Über die Amazon Lambda@Edge Services erfolt die regelmäßige Aktualisierung der Caching-Mechanismen. 
 
-Die Veröffentlichungs- und Änderungsprozesse erfolgen über einen Git-Client (ich verwende Atom https://atom.io/ auf dem Mac und WorkingCopy https://workingcopyapp.com/ auf iOS) auf dieses Github Repository. Bei jeder Veränderung dieses Github Repository erfolgt automatisch über Amazon CodePipeline eine Aktualisierung der Website auf dem Amazon S3 Speicher und eine Neuverteilung der Seiten über Amazon CloudFront.
+Die Veröffentlichungs- und Änderungsprozesse erfolgen über einen Git-Client (ich verwende aktuell Visual Studio Code https://code.visualstudio.com auf dem Mac und WorkingCopy https://workingcopyapp.com/ auf iOS). Bei jeder Veränderung dieses Github Repository erfolgt automatisch über Amazon CodePipeline eine Aktualisierung der Website auf dem Amazon S3 Speicher und eine Neuverteilung der Seiten über Amazon CloudFront.
 
 
 ## Datenschutz und Informationssicherheit
@@ -46,7 +43,7 @@ Allen Autoren danke ich ganz herzlich für Ihre Arbeit, Veröffentlichungen und 
 Minimalistic CSS framework von milligram
 https://milligram.io/
 
-CSS resets for browsers von normalize
+CSS resets for older browsers von normalize
 https://necolas.github.io/normalize.css/
 
 Hamburger menü von Håvard Brynjulfsen
@@ -58,7 +55,7 @@ https://www.freepik.com/free-photos-vectors/
 Icons von fontawesome
 https://fontawesome.com/
 
-Fonts von Google fonts
+Fonts von Google fonts (lokal von dieser Website bereitgestellt)
 https://fonts.google.com/specimen/Open+Sans
 
 
